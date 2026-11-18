@@ -2,6 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import Gallery from "@/components/Gallery";
 import LoanCalculator from "@/components/LoanCalculator";
+import EnquiryForm from "@/components/EnquiryForm";
 import { PROJECTS, getProject, fmtRM, range } from "@/lib/format";
 import { SITE, waLink } from "@/lib/site";
 
@@ -116,7 +117,7 @@ export default function ProjectPage({ params }) {
 
           <div className="prose">
             <h2 style={{ marginTop: 0 }}>Floor plans &amp; brochure</h2>
-            <p>Floor plans and the full price list are sent on WhatsApp so you get the current version.</p>
+            <p>Send an enquiry and I'll WhatsApp you the floor plans and the current price list.</p>
           </div>
 
           <div className="locsec">
@@ -145,12 +146,8 @@ export default function ProjectPage({ params }) {
           <div className="box">
             <span className="small">SPA price from</span>
             <b className="num" style={{ fontSize: 26, color: "var(--price)" }}>{p.priceFrom ? fmtRM(p.priceFrom) : "Ask for price"}</b>
-            <a className="btn wa" target="_blank" rel="noopener noreferrer"
-               href={waLink(`Hi ${SITE.shortName}, I'm interested in ${p.name}. Could you send the floor plans and price list?`)}>
-              Get floor plans &amp; price list
-            </a>
-            <span className="small">SPA price.</span>
           </div>
+          <EnquiryForm projectName={p.name} />
           {p.priceFrom && <LoanCalculator price={p.priceFrom} />}
         </aside>
       </div>
