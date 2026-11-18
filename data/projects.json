@@ -477,5 +477,97 @@
       "notFor": "Buyers who need rail access or a short commute to the city.",
       "updated": "November 2026"
     }
+  },
+  {
+    "id": "imperial-residences",
+    "name": "Imperial Residences",
+    "developer": "Pavilion Group (Jendela Mayang Sdn Bhd)",
+    "area": "Pavilion Damansara Heights",
+    "state": "Kuala Lumpur",
+    "type": "Serviced Residence",
+    "priceFrom": 5429000,
+    "priceTo": 19812000,
+    "bedrooms": [
+      3,
+      4
+    ],
+    "sizeSqft": [
+      3380,
+      7459
+    ],
+    "sizeText": null,
+    "tenure": "Freehold",
+    "completion": "March 2030",
+    "featured": true,
+    "lat": 3.1529,
+    "lng": 101.6612,
+    "hue": 45,
+    "address": "Pavilion Damansara Heights, Bukit Damansara, 50490 Kuala Lumpur",
+    "nearby": [
+      "Pavilion Damansara Heights MRT, 2 stops to KL Sentral",
+      "Pavilion Damansara Heights mall, over 1 million sq ft",
+      "Kuala Lumpur Golf & Country Club",
+      "Pantai Hospital Kuala Lumpur",
+      "Mont' Kiara and Garden International Schools"
+    ],
+    "about": "The most exclusive residential tower in Pavilion Damansara Heights: 154 freehold serviced residences from 3,380 sq ft, built over the Pavilion lifestyle mall and the Pavilion Damansara Heights MRT station, with Pavilion concierge service for residents.",
+    "highlights": [
+      "Freehold, only 154 units",
+      "Integrated with the Pavilion mall and MRT station",
+      "Every bedroom en suite, plus a private lanai",
+      "Pavilion concierge service for residents"
+    ],
+    "units": [
+      {
+        "label": "Type H1",
+        "price": null,
+        "builtUp": "3,380 sq ft",
+        "rooms": "4 ensuites + lanai"
+      },
+      {
+        "label": "Type H1A",
+        "price": null,
+        "builtUp": "3,380 sq ft",
+        "rooms": "3 ensuites + studio + lanai"
+      },
+      {
+        "label": "Type H2",
+        "price": null,
+        "builtUp": "4,090 sq ft",
+        "rooms": "4 ensuites + lanai"
+      },
+      {
+        "label": "Type H2A",
+        "price": null,
+        "builtUp": "4,090 sq ft",
+        "rooms": "4 ensuites + lanai"
+      }
+    ],
+    "images": [
+      "/projects/imperial-residences-1.jpg",
+      "/projects/imperial-residences-2.jpg",
+      "/projects/imperial-residences-3.jpg",
+      "/projects/imperial-residences-4.jpg",
+      "/projects/imperial-residences-5.jpg",
+      "/projects/imperial-residences-6.jpg"
+    ],
+    "review": {
+      "verdict": "A freehold trophy address built over the Pavilion Damansara Heights mall and MRT station, for buyers in the RM 5 million and above bracket.",
+      "good": [
+        "Freehold, with only 154 units",
+        "Mall, MRT and concierge in the same development; the MRT is 2 stops from KL Sentral",
+        "Large layouts from 3,380 sq ft with every bedroom en suite",
+        "Clears the KL minimum for foreigners and every mainland MM2H tier"
+      ],
+      "watch": [
+        "About RM 1,606 per sq ft at the lowest SPA price, the highest on this site",
+        "Completion in March 2030, a long wait",
+        "Classified as serviced apartments; check the title type and utility rates",
+        "An integrated mall development brings crowds and traffic around the base"
+      ],
+      "suits": "High-net-worth families, and foreign or MM2H Platinum buyers who want a central KL address.",
+      "notFor": "Buyers looking for rental yield or a budget under RM 5 million.",
+      "updated": "November 2026"
+    }
   }
 ]

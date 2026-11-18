@@ -62,15 +62,15 @@ export default function ProjectPage({ params }) {
 
           {p.units?.length > 0 && (
             <div className="locsec">
-              <h2>Unit types &amp; prices</h2>
+              <h2>{p.units.some((u) => u.price) ? "Unit types & prices" : "Unit types"}</h2>
               <div className="tablewrap">
                 <table style={{ minWidth: 560 }}>
-                  <thead><tr><th>Type</th><th>SPA price from</th><th>Built-up</th>{p.units.some((u) => u.rooms) && <th>Layout</th>}{p.units.some((u) => u.land) && <th>Land</th>}{p.units.some((u) => u.count) && <th>Units</th>}</tr></thead>
+                  <thead><tr><th>Type</th>{p.units.some((u) => u.price) && <th>SPA price from</th>}<th>Built-up</th>{p.units.some((u) => u.rooms) && <th>Layout</th>}{p.units.some((u) => u.land) && <th>Land</th>}{p.units.some((u) => u.count) && <th>Units</th>}</tr></thead>
                   <tbody>
                     {p.units.map((u) => (
                       <tr key={u.label}>
                         <td style={{ fontWeight: 600 }}>{u.label}</td>
-                        <td className="num" style={{ color: "var(--price)", fontWeight: 600 }}>From {fmtRM(u.price)}</td>
+                        {p.units.some((x) => x.price) && <td className="num" style={{ color: "var(--price)", fontWeight: 600 }}>{u.price ? `From ${fmtRM(u.price)}` : "Ask"}</td>}
                         <td className="num">{u.builtUp}</td>
                         {p.units.some((x) => x.rooms) && <td>{u.rooms}</td>}
                         {p.units.some((x) => x.land) && <td className="num">{u.land}</td>}
