@@ -14,7 +14,7 @@
     ],
     "sizeSqft": [
       882,
-      1509
+      1423
     ],
     "sizeText": null,
     "tenure": "Freehold",
@@ -69,22 +69,10 @@
         "rooms": "2 bedrooms, 2 baths, balcony, 2 car parks"
       },
       {
-        "label": "Type A1a",
-        "price": null,
-        "builtUp": "915 sq ft",
-        "rooms": "2 bedrooms, 2 baths, balcony (levels 11 & 17)"
-      },
-      {
         "label": "Type B1/B2",
         "price": null,
         "builtUp": "1,182 sq ft",
         "rooms": "2+1 bedrooms, 2 baths, balcony, 2 car parks"
-      },
-      {
-        "label": "Type B1a/B2a",
-        "price": null,
-        "builtUp": "1,262 sq ft",
-        "rooms": "2+1 bedrooms, 2 baths, balcony (levels 11 & 17)"
       },
       {
         "label": "Type B3",
@@ -93,22 +81,10 @@
         "rooms": "2+1 bedrooms, 2 baths, lanai, 2 car parks"
       },
       {
-        "label": "Type B3a",
-        "price": null,
-        "builtUp": "1,240 sq ft",
-        "rooms": "2+1 bedrooms, 2 baths, lanai (levels 11 & 17)"
-      },
-      {
         "label": "Type C",
         "price": null,
         "builtUp": "1,423 sq ft",
         "rooms": "3 bedrooms, 3 baths, balcony, 3 car parks"
-      },
-      {
-        "label": "Type C1a",
-        "price": null,
-        "builtUp": "1,509 sq ft",
-        "rooms": "3 bedrooms, 3 baths, balcony (levels 11 & 17)"
       }
     ],
     "images": [
