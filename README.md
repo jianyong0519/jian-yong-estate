@@ -31,6 +31,13 @@ Copy one project block in `data/projects.json` (from `{` to `}`), paste it after
 
 If the site stops updating after an edit, the file usually has a missing comma or quote. Vercel's Deployments page shows the error line.
 
+## Photo rules
+
+- Every project photo is shown in full, never cropped or enlarged, in a 16:9 frame with black bars at the sides. The same applies on the home cards, the Properties list and the project page.
+- Every photo carries an "Artist impression only" label in the bottom-right corner, added automatically.
+- Remove marketing wording (slogans, paragraphs, the developer's own "artist's illustration" tag) from renders before uploading. Keep signage that is part of the building.
+- The first image in `images` is the facade and is used as the cover.
+
 ## Before going public
 
 1. Fill in `agencyRegNo`, `agencyTel` and `ren` in `lib/site.js`.
