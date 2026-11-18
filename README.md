@@ -27,7 +27,7 @@ Copy one project block in `data/projects.json` (from `{` to `}`), paste it after
 - `featured`: `true` to show it on the home page.
 - `lat`, `lng`: position on the Map Search. Right-click the building in Google Maps and click the coordinates to copy them.
 - `mapPin` (optional): `"3.1010,101.6840"` puts the project page's Google Map pin exactly on the building. Without it, the map searches the name and address.
-- `image` (optional): upload a photo to `public/projects/` and set `"image": "/projects/the-atas.jpg"`.
+- `images` (optional): upload photos to `public/projects/` (Add file → Upload files on GitHub), then list them, facade first: `"images": ["/projects/the-atas-1.jpg", "/projects/the-atas-2.jpg"]`. The first one becomes the cover on cards and the project page; the rest show as thumbnails. Keep each photo under about 500 KB (JPG or WebP, 1600 px wide is plenty).
 
 If the site stops updating after an edit, the file usually has a missing comma or quote. Vercel's Deployments page shows the error line.
 

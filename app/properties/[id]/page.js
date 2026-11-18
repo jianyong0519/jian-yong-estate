@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import Cover from "@/components/Cover";
+import Gallery from "@/components/Gallery";
 import LoanCalculator from "@/components/LoanCalculator";
 import { PROJECTS, getProject, fmtRM, range } from "@/lib/format";
 import { SITE, waLink } from "@/lib/site";
@@ -45,7 +45,7 @@ export default function ProjectPage({ params }) {
   return (
     <>
       <Link className="back" href="/properties">← All projects</Link>
-      <div className="p-hero"><Cover p={p} w={1260} h={480} /></div>
+      <Gallery p={p} />
       <div className="p-layout">
         <div>
           <div className="eyebrow">{p.type} · {p.state}</div>

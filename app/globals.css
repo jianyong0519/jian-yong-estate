@@ -103,7 +103,12 @@ section+section{margin-top:56px}
 /* project page */
 .back{display:inline-flex;gap:6px;text-decoration:none;color:var(--muted);margin-bottom:16px}
 .p-hero{border-radius:16px;overflow:hidden;aspect-ratio:21/8;max-width:100%}
-.p-hero svg{width:100%;height:100%;display:block}
+.p-hero svg,.p-hero img{width:100%;height:100%;display:block;object-fit:cover}
+.gallery{display:grid;gap:10px}
+.thumbs{display:flex;gap:8px;overflow-x:auto;padding-bottom:4px}
+.thumbs button{flex:0 0 auto;width:96px;aspect-ratio:4/3;padding:0;border:2px solid transparent;border-radius:8px;overflow:hidden;cursor:pointer;background:var(--sunk)}
+.thumbs button[aria-pressed="true"]{border-color:var(--accent)}
+.thumbs img{width:100%;height:100%;object-fit:cover;display:block}
 .p-layout{display:grid;grid-template-columns:minmax(0,1fr) 340px;gap:32px;margin-top:24px;align-items:start}
 .facts{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:1px;background:var(--line);border:1px solid var(--line);border-radius:12px;overflow:hidden;margin-top:20px}
 .facts div{background:var(--surface);padding:12px 14px}
