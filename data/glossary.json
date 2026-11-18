@@ -1,0 +1,260 @@
+[
+  {
+    "term": "Booking fee",
+    "category": "Buying",
+    "aka": "",
+    "definition": "A small deposit that reserves a unit before the SPA is signed. It is normally deducted from your 10% down payment. Read the booking form for when it is refundable."
+  },
+  {
+    "term": "SPA",
+    "category": "Buying",
+    "aka": "Sale and Purchase Agreement",
+    "definition": "The contract between you and the developer. For licensed housing projects it follows a fixed government form: Schedule G for landed homes and Schedule H for strata units such as condos."
+  },
+  {
+    "term": "Down payment",
+    "category": "Buying",
+    "aka": "",
+    "definition": "The part of the price you pay yourself, usually 10% on signing the SPA. The bank loan covers the rest."
+  },
+  {
+    "term": "Gross price / Net price",
+    "category": "Buying",
+    "aka": "",
+    "definition": "The gross price is the developer's list price. The net price is what you pay after rebates. Ask for both, and for which one appears in the SPA."
+  },
+  {
+    "term": "Rebate",
+    "category": "Buying",
+    "aka": "",
+    "definition": "A discount from the developer, such as an early-bird rebate. Packages advertised as “0% down payment” usually use a rebate to cover the down payment."
+  },
+  {
+    "term": "Progress billing",
+    "category": "Buying",
+    "aka": "Progressive payment",
+    "definition": "For a project under construction, the developer bills in stages as work is completed (foundation, structure, walls, and so on). Your bank pays each bill from your loan."
+  },
+  {
+    "term": "VP",
+    "category": "Buying",
+    "aka": "Vacant possession",
+    "definition": "Handover of the keys once the unit is complete, with water and electricity connected and a CCC issued."
+  },
+  {
+    "term": "CCC",
+    "category": "Buying",
+    "aka": "Certificate of Completion and Compliance",
+    "definition": "Confirms the building was completed according to approved plans and is fit to occupy. Needed before VP."
+  },
+  {
+    "term": "DLP",
+    "category": "Buying",
+    "aka": "Defect liability period",
+    "definition": "After VP, the period in which the developer must repair defects you report. Under the Schedule H SPA it is 24 months."
+  },
+  {
+    "term": "LAD",
+    "category": "Buying",
+    "aka": "Liquidated ascertained damages",
+    "definition": "Compensation the developer pays if it hands over late. The statutory SPA sets it at 10% a year of the purchase price for the days of delay."
+  },
+  {
+    "term": "Built-up",
+    "category": "Buying",
+    "aka": "",
+    "definition": "The floor area of the unit as stated by the developer, in square feet. It usually includes walls and balcony."
+  },
+  {
+    "term": "PSF",
+    "category": "Buying",
+    "aka": "Price per square foot",
+    "definition": "Price divided by built-up. Use it to compare units of different sizes or projects."
+  },
+  {
+    "term": "Dual-key unit",
+    "category": "Buying",
+    "aka": "",
+    "definition": "A unit split into two parts with separate doors, so you can live in one and rent out the other, or rent both."
+  },
+  {
+    "term": "Bumi lot",
+    "category": "Buying",
+    "aka": "Bumiputera quota",
+    "definition": "Units reserved for Bumiputera buyers, usually with a discount. Other buyers can purchase them only if the state releases the quota."
+  },
+  {
+    "term": "HDA",
+    "category": "Buying",
+    "aka": "Housing Development Act",
+    "definition": "The law that licenses developers and protects buyers of new homes. Your payments go into an HDA account the developer can draw on only as the rules allow."
+  },
+  {
+    "term": "Freehold",
+    "category": "Ownership",
+    "aka": "",
+    "definition": "You own the land title with no expiry date."
+  },
+  {
+    "term": "Leasehold",
+    "category": "Ownership",
+    "aka": "",
+    "definition": "You own the property for a fixed term, typically 99 years, after which the lease must be renewed with the state for a premium."
+  },
+  {
+    "term": "Strata title",
+    "category": "Ownership",
+    "aka": "",
+    "definition": "The title for a unit in a building or gated scheme with shared common property. You own your unit plus a share of the common areas."
+  },
+  {
+    "term": "Individual title",
+    "category": "Ownership",
+    "aka": "",
+    "definition": "The title for a landed home where you own the house and land outright."
+  },
+  {
+    "term": "Residential vs commercial title",
+    "category": "Ownership",
+    "aka": "",
+    "definition": "Condos usually sit on residential land. Many serviced residences sit on commercial land, which can mean higher utility tariffs and assessment rates."
+  },
+  {
+    "term": "Serviced residence",
+    "category": "Ownership",
+    "aka": "Serviced apartment",
+    "definition": "A high-rise home often built on commercial land, with facilities managed like a condo. Check the title type and utility rates."
+  },
+  {
+    "term": "JMB / MC",
+    "category": "Ownership",
+    "aka": "Joint Management Body / Management Corporation",
+    "definition": "The owners' body that manages the building after the developer hands over. It sets the maintenance fee and enforces house rules."
+  },
+  {
+    "term": "Maintenance fee & sinking fund",
+    "category": "Ownership",
+    "aka": "",
+    "definition": "Monthly charges for security, cleaning and facilities, shared by share units. The sinking fund, at least 10% of the charges, is saved for major repairs."
+  },
+  {
+    "term": "Quit rent & assessment",
+    "category": "Ownership",
+    "aka": "Cukai tanah & cukai pintu",
+    "definition": "Quit rent is an annual tax to the state land office. Assessment is paid to the local council, usually twice a year."
+  },
+  {
+    "term": "State consent",
+    "category": "Ownership",
+    "aka": "",
+    "definition": "Approval from the state authority needed for every purchase by a foreigner, and for some leasehold transfers. Your lawyer applies for it."
+  },
+  {
+    "term": "Margin of finance",
+    "category": "Loans",
+    "aka": "Loan-to-value, LTV",
+    "definition": "The share of the price the bank lends. For individuals, Bank Negara caps it at 70% from the third outstanding housing loan."
+  },
+  {
+    "term": "DSR",
+    "category": "Loans",
+    "aka": "Debt service ratio",
+    "definition": "Your total monthly debt repayments divided by your net income. Banks use it to decide how much you can borrow; each bank sets its own limit."
+  },
+  {
+    "term": "OPR / SBR",
+    "category": "Loans",
+    "aka": "Overnight Policy Rate / Standardised Base Rate",
+    "definition": "The OPR is Bank Negara's policy rate. The SBR follows it, and floating home loan rates are set as SBR plus the bank's own spread."
+  },
+  {
+    "term": "Full-flexi loan",
+    "category": "Loans",
+    "aka": "",
+    "definition": "A loan linked to a current account. Money you park in it reduces the interest charged, and you can withdraw it again."
+  },
+  {
+    "term": "Semi-flexi loan",
+    "category": "Loans",
+    "aka": "",
+    "definition": "You can pay extra to cut interest and withdraw the excess, usually with a notice period or a fee."
+  },
+  {
+    "term": "Term loan",
+    "category": "Loans",
+    "aka": "",
+    "definition": "A basic loan with fixed monthly instalments. Extra payments reduce the balance but can't be withdrawn."
+  },
+  {
+    "term": "Lock-in period",
+    "category": "Loans",
+    "aka": "",
+    "definition": "The first years of the loan, often 3 to 5, during which settling or refinancing incurs a penalty, commonly a percentage of the loan."
+  },
+  {
+    "term": "MRTA",
+    "category": "Loans",
+    "aka": "Mortgage Reducing Term Assurance",
+    "definition": "Insurance that pays off the loan if the borrower dies or becomes totally and permanently disabled. Cover falls as the loan balance falls. Usually paid once and can be added to the loan."
+  },
+  {
+    "term": "MLTA",
+    "category": "Loans",
+    "aka": "Mortgage Level Term Assurance",
+    "definition": "Like MRTA, but the cover stays at a fixed amount and the policy can usually move with you to another property. Premiums are higher and paid regularly."
+  },
+  {
+    "term": "Valuation",
+    "category": "Loans",
+    "aka": "",
+    "definition": "The bank's assessment of the property's value. The loan is based on the lower of the price and the valuation."
+  },
+  {
+    "term": "Refinancing",
+    "category": "Loans",
+    "aka": "",
+    "definition": "Replacing your loan with a new one, to get a lower rate or to cash out equity. Check the lock-in penalty and the new legal and stamp duty costs."
+  },
+  {
+    "term": "LPPSA",
+    "category": "Loans",
+    "aka": "Public Sector Housing Financing Board",
+    "definition": "Housing loans for civil servants, with their own margin and rate rules."
+  },
+  {
+    "term": "Stamp duty (MOT)",
+    "category": "Costs & tax",
+    "aka": "Memorandum of transfer",
+    "definition": "Tax on the property transfer. Malaysians and PRs pay 1% on the first RM 100k, 2% to RM 500k, 3% to RM 1M and 4% above. Foreign buyers pay a flat 8% on residential property from 1 January 2026."
+  },
+  {
+    "term": "Stamp duty (loan)",
+    "category": "Costs & tax",
+    "aka": "",
+    "definition": "0.5% of the loan amount, charged on the loan agreement."
+  },
+  {
+    "term": "Legal fees",
+    "category": "Costs & tax",
+    "aka": "",
+    "definition": "Set by the Solicitors' Remuneration Order 2023, charged separately for the SPA and the loan agreement, plus service tax and disbursements. Developers often offer “free legal fees” packages."
+  },
+  {
+    "term": "First-home exemption",
+    "category": "Costs & tax",
+    "aka": "",
+    "definition": "Malaysian first-time buyers can get stamp duty relief on homes up to a set price. The limit and deadline change with each Budget, so check the current terms."
+  },
+  {
+    "term": "RPGT",
+    "category": "Costs & tax",
+    "aka": "Real Property Gains Tax",
+    "definition": "Tax on the gain when you sell. Malaysians pay 30% in the first 3 years, 20% in year 4, 15% in year 5 and 0% from year 6. Foreigners pay 30% within 5 years and 10% after."
+  },
+  {
+    "term": "Disbursements",
+    "category": "Costs & tax",
+    "aka": "",
+    "definition": "Out-of-pocket costs your lawyer pays for you, such as searches, registration and courier fees, billed on top of legal fees."
+  }
+]

@@ -1,0 +1,78 @@
+[
+  {
+    "group": "Before you book",
+    "items": [
+      {
+        "q": "How much cash do I need upfront for a new launch?",
+        "a": "Plan for the 10% down payment plus legal fees and stamp duty on the loan, roughly 10% to 13% of the price in total. Developer packages with rebates or free legal fees can bring this down a lot, so ask what the package covers."
+      },
+      {
+        "q": "Do I pay agent fees on a new launch?",
+        "a": "No. For new launches the developer pays the agent's commission. You pay the developer's price only."
+      },
+      {
+        "q": "How much can I borrow?",
+        "a": "It depends on your net income, existing debts (your DSR) and the bank's margin of finance. Send me your monthly income and commitments and I'll work out a realistic budget before you shortlist."
+      },
+      {
+        "q": "Under construction or completed: which is better?",
+        "a": "Under construction spreads payments over progress billing and gives you a new building, but you can't inspect the finished unit. Completed lets you see exactly what you get and move in or rent out straight away, but you pay the full balance at once."
+      },
+      {
+        "q": "Serviced residence or condominium?",
+        "a": "Both are high-rise strata homes. The main difference is the land title: serviced residences are often on commercial land, which can mean higher utility and assessment rates. Condos are usually on residential land."
+      }
+    ]
+  },
+  {
+    "group": "Booking and signing",
+    "items": [
+      {
+        "q": "What happens after I pay the booking fee?",
+        "a": "You sign the SPA and the loan agreement at a lawyer's office, usually within a few weeks, and pay the balance of the 10% down payment. Your bank issues a letter of offer before you sign the loan."
+      },
+      {
+        "q": "Can I cancel after booking?",
+        "a": "Read the booking form first. The booking fee is often refundable only in set cases, such as a loan rejection. Cancelling after signing the SPA usually costs much more."
+      },
+      {
+        "q": "What does “free legal fees” actually cover?",
+        "a": "Usually the legal fees for the SPA and the loan agreement, sometimes with disbursements. Check whether stamp duty on the transfer and on the loan is included; it often isn't."
+      }
+    ]
+  },
+  {
+    "group": "During construction",
+    "items": [
+      {
+        "q": "When do I start paying the loan?",
+        "a": "During construction you pay interest only on the amount the bank has released through progress billing, so instalments start small. Full instalments begin after the final release."
+      },
+      {
+        "q": "What if the developer delivers late?",
+        "a": "Under the statutory SPA the developer pays LAD, 10% a year of the purchase price for each day of delay. It is usually set off against your final payment."
+      }
+    ]
+  },
+  {
+    "group": "Getting the keys and after",
+    "items": [
+      {
+        "q": "What should I check at VP?",
+        "a": "Inspect every room for cracks, hollow tiles, leaks, uneven paint and faulty fittings, and list them in the defect form. Report anything else that appears within the 24-month defect liability period."
+      },
+      {
+        "q": "Can the maintenance fee go up?",
+        "a": "Yes. The developer sets the first rate, and the JMB or MC can revise it later based on the building's actual costs."
+      },
+      {
+        "q": "Can I rent my unit out on Airbnb?",
+        "a": "It depends on the building's house rules and the local council. Some buildings ban short stays outright, so check before you buy for that purpose."
+      },
+      {
+        "q": "When can I sell without paying RPGT?",
+        "a": "Malaysians pay no RPGT from the sixth year after buying. Selling earlier is taxed on the gain at 30%, 20% or 15% depending on the year."
+      }
+    ]
+  }
+]
