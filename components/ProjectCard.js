@@ -7,6 +7,7 @@ export default function ProjectCard({ p }) {
     <Link className="card" href={`/properties/${p.id}`}>
       <div className="cover">
         <Cover p={p} />
+        {(p.images?.length > 0 || p.image) && <span className="ai-tag">Artist impression only</span>}
         <div className="tags">
           <span className="tag">{p.type}</span>
           <span className="tag">{tenureTag(p.tenure)}</span>
