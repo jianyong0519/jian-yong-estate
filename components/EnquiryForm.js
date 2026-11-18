@@ -9,7 +9,6 @@ export default function EnquiryForm({ projectName }) {
   const [name, setName] = useState("");
   const [phone, setPhone] = useState("");
   const [email, setEmail] = useState("");
-  const [message, setMessage] = useState("");
   const [errors, setErrors] = useState({});
   const [sent, setSent] = useState(false);
 
@@ -35,7 +34,6 @@ export default function EnquiryForm({ projectName }) {
       `Name: ${name.trim()}`,
       `Phone: ${phone.trim()}`,
       email.trim() ? `Email: ${email.trim()}` : null,
-      message.trim() ? `Message: ${message.trim()}` : null,
       "",
       `Sent from ${typeof window !== "undefined" ? window.location.href.split("?")[0] : SITE.url}`,
     ].filter((l) => l !== null);
@@ -51,7 +49,7 @@ export default function EnquiryForm({ projectName }) {
       <h3>Send an Enquiry</h3>
 
       <label htmlFor="enqName">Your Name <span className="req">*</span>
-        <input id="enqName" className="field" autoComplete="name" placeholder="e.g. Ahmad Zaki"
+        <input id="enqName" className="field" autoComplete="name" placeholder="e.g. Abc"
                value={name} onChange={(e) => setName(e.target.value)} aria-invalid={!!errors.name} />
         {errors.name && <span className="err">{errors.name}</span>}
       </label>
@@ -63,14 +61,9 @@ export default function EnquiryForm({ projectName }) {
       </label>
 
       <label htmlFor="enqEmail">Email Address
-        <input id="enqEmail" className="field" type="email" autoComplete="email" placeholder="you@email.com"
+        <input id="enqEmail" className="field" type="email" autoComplete="email" placeholder="abc@email.com"
                value={email} onChange={(e) => setEmail(e.target.value)} aria-invalid={!!errors.email} />
         {errors.email && <span className="err">{errors.email}</span>}
-      </label>
-
-      <label htmlFor="enqMsg">Message
-        <textarea id="enqMsg" className="field area" rows={4} placeholder={projectName}
-                  value={message} onChange={(e) => setMessage(e.target.value)} />
       </label>
 
       <button className="btn wa" type="submit">
