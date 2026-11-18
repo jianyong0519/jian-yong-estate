@@ -2,7 +2,7 @@
   {
     "id": "oaka-residences",
     "name": "OAKA Residences",
-    "developer": "Berjaya Group",
+    "developer": "Berjaya Hartanah Berhad (Berjaya Land)",
     "area": "Bukit Jalil",
     "state": "Kuala Lumpur",
     "type": "Condominium",
@@ -18,37 +18,90 @@
     ],
     "sizeText": null,
     "tenure": "Freehold",
-    "completion": "2027",
+    "completion": "2028",
     "featured": true,
-    "lat": 3.0575,
-    "lng": 101.686,
+    "lat": 3.0568,
+    "lng": 101.6935,
     "hue": 162,
-    "address": "Jalan Jalil Perkasa 7, Bukit Jalil, 57000 Kuala Lumpur",
+    "address": "Jalan Jalil Perkasa 7, Bukit Jalil, 57100 Kuala Lumpur",
     "nearby": [
-      "Pavilion Bukit Jalil",
-      "Bukit Jalil sports city"
+      "IMU University, 1.0 km",
+      "Columbia Asia Hospital, 1.0 km",
+      "Bukit Jalil Recreational Park, 1.3 km",
+      "Bukit Jalil National Stadium, 1.7 km",
+      "The Tropika, Bukit Jalil, 1.8 km",
+      "Bukit Jalil Golf & Country Resort, 1.8 km",
+      "Pavilion Bukit Jalil, 2.4 km",
+      "Sri Petaling and Awan Besar LRT stations"
     ],
-    "about": "Freehold condominium in Bukit Jalil, close to the Bukit Jalil sports city and Pavilion Bukit Jalil.",
+    "about": "Two 30-storey towers of 175 units each on 2.2 acres of freehold land in Bukit Jalil, facing the Bukit Jalil Golf & Country Resort. With 350 units at 7 per floor, every layout has a storage room and 2 to 3 car parks, and units are handed over partially furnished. GreenRE Gold certified and pet-friendly, with an infinity pool, a 3,084 sq ft gym and a sky garden.",
     "highlights": [
-      "Freehold tenure",
-      "2 and 3 bedroom layouts",
-      "Bukit Jalil address"
+      "Freehold, 350 units at only 7 per floor",
+      "2 to 3 car parks for every unit",
+      "Handed over partially furnished",
+      "Infinity pool, 3,084 sq ft gym and rooftop sky garden",
+      "GreenRE Gold certified and pet-friendly",
+      "Foreigners can buy units priced above RM 1M"
     ],
     "review": {
-      "verdict": "A freehold family condo in Bukit Jalil that completes soon, priced at the top of this list per square foot.",
+      "verdict": "A freehold, low-density family condo facing the Bukit Jalil golf course, with generous parking and partial furnishing.",
       "good": [
-        "Freehold tenure, which is uncommon among new Bukit Jalil launches",
-        "Even the smallest layout is 882 sq ft, a real two-bedroom family size",
-        "Completion in 2027, so a short wait compared with the 2029 launches"
+        "Freehold, with only 7 units per floor across 2 towers",
+        "2 to 3 car parks for every unit, and every layout has a storage room",
+        "Handed over partially furnished",
+        "Walking distance to IMU and Columbia Asia Hospital, about 1 km away"
       ],
       "watch": [
-        "About RM 948 per sq ft at the lowest SPA price, the highest on this site",
-        "Many new launches in Bukit Jalil, so tenants have plenty of choice"
+        "About RM 948 per sq ft at the lowest SPA price shown, among the highest on this site",
+        "Maintenance fee of about RM 0.51 per sq ft, higher than most projects here",
+        "No LRT within walking distance; Sri Petaling and Awan Besar need a short drive",
+        "Extra car parks can't be bought"
       ],
-      "suits": "Families buying to live in who want freehold in Bukit Jalil.",
+      "suits": "Families buying to live in who want freehold, space for 2 to 3 cars and golf-course views in Bukit Jalil.",
       "notFor": "Buyers with a budget under RM 800k.",
       "updated": "November 2026"
-    }
+    },
+    "units": [
+      {
+        "label": "Type A",
+        "price": null,
+        "builtUp": "882 sq ft",
+        "rooms": "2 bedrooms, 2 baths, 2 car parks",
+        "floorPlan": "https://oaka-residences.my/assets/img/oaka-residences-type-a-floor-plan.webp"
+      },
+      {
+        "label": "Type B1/B2",
+        "price": null,
+        "builtUp": "1,182 sq ft",
+        "rooms": "2+1 bedrooms, 2 baths, dry & wet kitchen, 2 car parks",
+        "floorPlan": "https://oaka-residences.my/assets/img/oaka-residences-type-b1-b2-floor-plan.webp"
+      },
+      {
+        "label": "Type B3",
+        "price": null,
+        "builtUp": "1,175 sq ft",
+        "rooms": "2+1 bedrooms, 2 baths, lanai, 2 car parks",
+        "floorPlan": "https://oaka-residences.my/assets/img/oaka-residences-type-b3-floor-plan.webp"
+      },
+      {
+        "label": "Type C",
+        "price": null,
+        "builtUp": "1,423 sq ft",
+        "rooms": "3 bedrooms, 3 baths, dry & wet kitchen, 3 car parks",
+        "floorPlan": "https://oaka-residences.my/assets/img/oaka-residences-type-c-floor-plan.webp"
+      }
+    ],
+    "images": [
+      "https://oaka-residences.my/og-image.jpg",
+      "https://oaka-residences.my/assets/img/oaka-residences-bukit-jalil-aerial.webp",
+      "https://oaka-residences.my/assets/img/oaka-residences-grand-entrance.webp",
+      "https://oaka-residences.my/assets/img/oaka-residences-infinity-pool.webp",
+      "https://oaka-residences.my/assets/img/oaka-residences-pool-pavilion.webp",
+      "https://oaka-residences.my/assets/img/oaka-residences-viewing-gazebo.webp",
+      "https://oaka-residences.my/assets/img/oaka-residences-bbq-deck-playground.webp",
+      "https://oaka-residences.my/assets/img/oaka-residences-hammock-lawn.webp",
+      "https://oaka-residences.my/assets/img/oaka-residences-living-dining-interior.webp"
+    ]
   },
   {
     "id": "the-vividz",

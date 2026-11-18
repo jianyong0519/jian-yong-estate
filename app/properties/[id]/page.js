@@ -81,6 +81,17 @@ export default function ProjectPage({ params }) {
                   </tbody>
                 </table>
               </div>
+              {p.units.some((u) => u.floorPlan) && (
+                <div className="plans">
+                  {p.units.filter((u) => u.floorPlan).map((u) => (
+                    <a key={u.label} className="plan" href={u.floorPlan} target="_blank" rel="noopener noreferrer">
+                      {/* eslint-disable-next-line @next/next/no-img-element */}
+                      <img src={u.floorPlan} alt={`${p.name} ${u.label} floor plan`} loading="lazy" />
+                      <span>{u.label} · {u.builtUp}</span>
+                    </a>
+                  ))}
+                </div>
+              )}
             </div>
           )}
 

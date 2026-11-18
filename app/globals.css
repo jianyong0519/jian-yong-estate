@@ -154,6 +154,11 @@ aside.side{display:grid;gap:16px;align-content:start}
 .rv-fit span{display:block;font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:.05em;font-weight:600}
 @media (max-width:640px){.rv-cols,.rv-fit{grid-template-columns:1fr}}
 
+.plans{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:12px}
+.plan{display:grid;gap:6px;text-decoration:none;color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:10px}
+.plan img{width:100%;aspect-ratio:1;object-fit:contain;background:#fff;border-radius:8px}
+.plan span{font-size:13px;font-weight:600}
+
 /* mm2h */
 .tablewrap{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--surface)}
 table{border-collapse:collapse;width:100%;min-width:720px;font-size:14px}
