@@ -92,7 +92,7 @@ section+section{margin-top:56px}
 .card .dev{font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}
 .card h3{font-size:19px}
 .card .loc{color:var(--muted);font-size:14px;margin-top:-6px}
-.specs{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;border-block:1px solid var(--line);padding-block:10px}
+.specs{display:grid;grid-template-columns:repeat(4,minmax(0,auto));justify-content:space-between;gap:8px;border-block:1px solid var(--line);padding-block:10px}
 .specs span{display:block;font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.05em}
 .specs b{font-size:13px;font-weight:600}
 .price{display:flex;justify-content:space-between;align-items:baseline;margin-top:auto}
