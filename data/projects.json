@@ -66,41 +66,26 @@
         "label": "Type A",
         "price": null,
         "builtUp": "882 sq ft",
-        "rooms": "2 bedrooms, 2 baths, 2 car parks",
-        "floorPlan": "https://oaka-residences.my/assets/img/oaka-residences-type-a-floor-plan.webp"
+        "rooms": "2 bedrooms, 2 baths, 2 car parks"
       },
       {
         "label": "Type B1/B2",
         "price": null,
         "builtUp": "1,182 sq ft",
-        "rooms": "2+1 bedrooms, 2 baths, dry & wet kitchen, 2 car parks",
-        "floorPlan": "https://oaka-residences.my/assets/img/oaka-residences-type-b1-b2-floor-plan.webp"
+        "rooms": "2+1 bedrooms, 2 baths, dry & wet kitchen, 2 car parks"
       },
       {
         "label": "Type B3",
         "price": null,
         "builtUp": "1,175 sq ft",
-        "rooms": "2+1 bedrooms, 2 baths, lanai, 2 car parks",
-        "floorPlan": "https://oaka-residences.my/assets/img/oaka-residences-type-b3-floor-plan.webp"
+        "rooms": "2+1 bedrooms, 2 baths, lanai, 2 car parks"
       },
       {
         "label": "Type C",
         "price": null,
         "builtUp": "1,423 sq ft",
-        "rooms": "3 bedrooms, 3 baths, dry & wet kitchen, 3 car parks",
-        "floorPlan": "https://oaka-residences.my/assets/img/oaka-residences-type-c-floor-plan.webp"
+        "rooms": "3 bedrooms, 3 baths, dry & wet kitchen, 3 car parks"
       }
-    ],
-    "images": [
-      "https://oaka-residences.my/og-image.jpg",
-      "https://oaka-residences.my/assets/img/oaka-residences-bukit-jalil-aerial.webp",
-      "https://oaka-residences.my/assets/img/oaka-residences-grand-entrance.webp",
-      "https://oaka-residences.my/assets/img/oaka-residences-infinity-pool.webp",
-      "https://oaka-residences.my/assets/img/oaka-residences-pool-pavilion.webp",
-      "https://oaka-residences.my/assets/img/oaka-residences-viewing-gazebo.webp",
-      "https://oaka-residences.my/assets/img/oaka-residences-bbq-deck-playground.webp",
-      "https://oaka-residences.my/assets/img/oaka-residences-hammock-lawn.webp",
-      "https://oaka-residences.my/assets/img/oaka-residences-living-dining-interior.webp"
     ]
   },
   {
