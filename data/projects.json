@@ -174,12 +174,12 @@
   {
     "id": "aras-residences",
     "name": "ARAS Residences",
-    "developer": "WCT Land",
+    "developer": "WCT Land (WCT OUG Development Sdn Bhd)",
     "area": "WCity OUG",
     "state": "Kuala Lumpur",
     "type": "Serviced Residence",
-    "priceFrom": 666000,
-    "priceTo": 950000,
+    "priceFrom": 745920,
+    "priceTo": 1152480,
     "bedrooms": [
       2,
       3
@@ -190,39 +190,69 @@
     ],
     "sizeText": null,
     "tenure": "Freehold",
-    "completion": "Q4 2029",
+    "completion": "December 2029",
     "featured": true,
     "lat": 3.077,
     "lng": 101.662,
     "hue": 140,
-    "address": "Jalan Hujan Rintik, Taman OUG (WCity OUG), 58200 Kuala Lumpur",
+    "address": "WCity OUG, Jalan Awan Besar, Taman Overseas Union, 58200 Kuala Lumpur",
     "nearby": [
-      "Sri Petaling LRT, about 1.1 km",
-      "WCity OUG central park"
+      "SK Seri Indah, 1.0 km",
+      "Sri Petaling LRT, 1.6 km",
+      "Columbia Asia Bukit Jalil, 2.0 km",
+      "IMU, 2.1 km",
+      "Bukit Jalil LRT, 2.3 km",
+      "Endah Parade, 2.7 km",
+      "Bukit Jalil Recreational Park, 2.9 km",
+      "Pavilion Bukit Jalil, 4.7 km"
     ],
-    "about": "Freehold residences inside the 63-acre WCity OUG township, beside the township's central park.",
+    "about": "Two freehold towers of 636 serviced residences each inside the WCity OUG township, facing its central park. Layouts are 850 sq ft with 2 rooms or 1,062 sq ft with 3 rooms, and facilities include a 50 m lap pool, a feature cabana and a sky terrace.",
     "highlights": [
-      "Freehold, in a 63-acre township",
-      "850 and 1,062 sq ft layouts",
-      "Over 50 facilities, including an onsen pool"
+      "Freehold parkfront living in WCity OUG",
+      "2-room and 3-room layouts, both with 2 bathrooms",
+      "50 m lap pool, feature cabana and sky terrace",
+      "Sri Petaling LRT 1.6 km away"
     ],
     "review": {
       "verdict": "Freehold in a large park township at a fair price per square foot, with a long build ahead.",
       "good": [
-        "Freehold, inside the 63-acre WCity OUG township with its own central park",
-        "About RM 784 per sq ft at the lowest SPA price",
-        "Over 50 facilities, including an onsen pool"
+        "Freehold, facing the WCity OUG central park",
+        "About RM 878 per sq ft at the lowest SPA price",
+        "Practical 2-room and 3-room layouts, each with 2 bathrooms",
+        "50 m lap pool, feature cabana and sky terrace"
       ],
       "watch": [
-        "1,272 units in two 56-storey towers, so it is not low density",
-        "Sri Petaling LRT is about 1.1 km away, not a short walk",
-        "Completion in Q4 2029",
-        "Check the land title: listing sites show it as commercial under the HDA"
+        "1,272 units in two towers, so it is not low density",
+        "Sri Petaling LRT is about 1.6 km away, not a short walk",
+        "Completion in December 2029",
+        "Classified as serviced residences; check the title type and utility rates"
       ],
       "suits": "Couples and small families who want freehold under RM 1M.",
       "notFor": "Buyers who want to move in before 2029.",
       "updated": "November 2026"
-    }
+    },
+    "units": [
+      {
+        "label": "Type A/A1",
+        "price": 745920,
+        "builtUp": "850 sq ft",
+        "rooms": "2 rooms, 2 baths",
+        "floorPlan": "/projects/aras-residences-plan-a.jpg"
+      },
+      {
+        "label": "Type B/B1",
+        "price": 918400,
+        "builtUp": "1,062 sq ft",
+        "rooms": "3 rooms, 2 baths",
+        "floorPlan": "/projects/aras-residences-plan-b.jpg"
+      }
+    ],
+    "images": [
+      "/projects/aras-residences-1.jpg",
+      "/projects/aras-residences-2.jpg",
+      "/projects/aras-residences-3.jpg",
+      "/projects/aras-residences-4.jpg"
+    ]
   },
   {
     "id": "devia-residences",
