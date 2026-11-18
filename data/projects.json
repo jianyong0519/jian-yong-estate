@@ -260,7 +260,8 @@
     },
     "images": [
       "/projects/levia-residence-1.jpg"
-    ]
+    ],
+    "imageFocus": "center 62%"
   },
   {
     "id": "the-atas",

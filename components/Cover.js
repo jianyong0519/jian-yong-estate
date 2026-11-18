@@ -5,7 +5,7 @@ export default function Cover({ p, w = 640, h = 360 }) {
   if (src) {
     return (
       // eslint-disable-next-line @next/next/no-img-element
-      <img src={src} alt={`${p.name} facade`} style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }} />
+      <img src={src} alt={`${p.name} facade`} style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: p.imageFocus || "center", display: "block" }} />
     );
   }
   let s = [...p.id].reduce((a, c) => a * 31 + c.charCodeAt(0), 7) >>> 0;
