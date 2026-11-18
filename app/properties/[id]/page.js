@@ -24,7 +24,9 @@ export default function ProjectPage({ params }) {
 
   const facts = [
     ["Starting price", p.priceFrom ? fmtRM(p.priceFrom) : "Ask for price"],
-    ["Up to", p.priceTo ? fmtRM(p.priceTo) : "—"],
+    p.units?.length > 1
+      ? [`${p.units[p.units.length - 1].label} from`, fmtRM(p.units[p.units.length - 1].price)]
+      : ["Up to", p.priceTo ? fmtRM(p.priceTo) : "—"],
     ["Bedrooms", p.bedrooms ? range(p.bedrooms) : "Ask"],
     ["Built-up", p.sizeSqft ? range(p.sizeSqft, " sq ft") : p.sizeText || "Ask"],
     ["Tenure", p.tenure],
@@ -61,12 +63,61 @@ export default function ProjectPage({ params }) {
             </p>
           )}
 
+          {p.units?.length > 0 && (
+            <div className="locsec">
+              <h2>Unit types &amp; prices</h2>
+              <div className="tablewrap">
+                <table style={{ minWidth: 560 }}>
+                  <thead><tr><th>Type</th><th>SPA price from</th><th>Built-up</th><th>Land</th><th>Units</th></tr></thead>
+                  <tbody>
+                    {p.units.map((u) => (
+                      <tr key={u.label}>
+                        <td style={{ fontWeight: 600 }}>{u.label}</td>
+                        <td className="num" style={{ color: "var(--price)", fontWeight: 600 }}>{fmtRM(u.price)}</td>
+                        <td className="num">{u.builtUp}</td>
+                        <td className="num">{u.land}</td>
+                        <td className="num">{u.count}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          )}
+
           <div className="prose">
             <h2 style={{ marginTop: 0 }}>About the project</h2>
             <p>{p.about}</p>
             <h2>Highlights</h2>
             <ul>{p.highlights.map((h) => <li key={h}>{h}</li>)}</ul>
-            <h2>Floor plans &amp; brochure</h2>
+          </div>
+
+          {p.review && (
+            <div className="review">
+              <div className="eyebrow">My review · updated {p.review.updated}</div>
+              <h2>{p.review.verdict}</h2>
+              <div className="rv-cols">
+                <div className="rv good">
+                  <h3>What&apos;s good</h3>
+                  <ul>{p.review.good.map((x) => <li key={x}>{x}</li>)}</ul>
+                </div>
+                <div className="rv watch">
+                  <h3>Watch out for</h3>
+                  <ul>{p.review.watch.map((x) => <li key={x}>{x}</li>)}</ul>
+                </div>
+              </div>
+              <div className="rv-fit">
+                <div><span>Suits</span>{p.review.suits}</div>
+                <div><span>Less suited to</span>{p.review.notFor}</div>
+              </div>
+              <p className="small" style={{ margin: 0 }}>
+                My own view as a negotiator marketing this project, based on the developer&apos;s published details. Check the SPA and visit the site before you decide.
+              </p>
+            </div>
+          )}
+
+          <div className="prose">
+            <h2 style={{ marginTop: 0 }}>Floor plans &amp; brochure</h2>
             <p>Floor plans, the price list and the latest rebates are sent on WhatsApp so you get the current version.</p>
           </div>
 

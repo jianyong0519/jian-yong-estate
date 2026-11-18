@@ -33,7 +33,22 @@
       "Freehold tenure",
       "2 and 3 bedroom layouts",
       "Bukit Jalil address"
-    ]
+    ],
+    "review": {
+      "verdict": "A freehold family condo in Bukit Jalil that completes soon, priced at the top of this list per square foot.",
+      "good": [
+        "Freehold tenure, which is uncommon among new Bukit Jalil launches",
+        "Even the smallest layout is 882 sq ft, a real two-bedroom family size",
+        "Completion in 2027, so a short wait compared with the 2029 launches"
+      ],
+      "watch": [
+        "About RM 948 per sq ft at the starting price, the highest on this site",
+        "Many new launches in Bukit Jalil, so tenants have plenty of choice"
+      ],
+      "suits": "Families buying to live in who want freehold in Bukit Jalil.",
+      "notFor": "Buyers with a budget under RM 800k.",
+      "updated": "November 2026"
+    }
   },
   {
     "id": "the-vividz",
@@ -68,7 +83,24 @@
       "Entry price under RM 450k",
       "1 to 3 bedroom units",
       "Suits first-time buyers and investors"
-    ]
+    ],
+    "review": {
+      "verdict": "The cheapest way into Bukit Jalil on this site, built for small households and rental.",
+      "good": [
+        "Starting price under RM 450k, the lowest quantum here",
+        "Compact one- and two-room units are easy to rent to singles and couples",
+        "A small loan keeps the monthly instalment low"
+      ],
+      "watch": [
+        "Leasehold",
+        "About RM 922 per sq ft on the 484 sq ft unit; small units carry a high price per foot",
+        "Completion in 2029, a longer wait",
+        "The smallest units are tight for a family"
+      ],
+      "suits": "First-time buyers and investors who want a low entry price.",
+      "notFor": "Families who need three full-size bedrooms.",
+      "updated": "November 2026"
+    }
   },
   {
     "id": "aras-residences",
@@ -104,7 +136,24 @@
       "Freehold, in a 63-acre township",
       "850 and 1,062 sq ft layouts",
       "Over 50 facilities, including an onsen pool"
-    ]
+    ],
+    "review": {
+      "verdict": "Freehold in a large park township at a fair price per square foot, with a long build ahead.",
+      "good": [
+        "Freehold, inside the 63-acre WCity OUG township with its own central park",
+        "About RM 784 per sq ft at the starting price",
+        "Over 50 facilities, including an onsen pool"
+      ],
+      "watch": [
+        "1,272 units in two 56-storey towers, so it is not low density",
+        "Sri Petaling LRT is about 1.1 km away, not a short walk",
+        "Completion in Q4 2029",
+        "Check the land title: listing sites show it as commercial under the HDA"
+      ],
+      "suits": "Couples and small families who want freehold under RM 1M.",
+      "notFor": "Buyers who want to move in before 2029.",
+      "updated": "November 2026"
+    }
   },
   {
     "id": "devia-residences",
@@ -139,7 +188,23 @@
       "Only 440 units",
       "Walk to Kwasa Damansara MRT",
       "2 to 4 bedroom layouts"
-    ]
+    ],
+    "review": {
+      "verdict": "A low-density MRT home with up to four rooms for under RM 710k.",
+      "good": [
+        "Only 440 units, low density for a high-rise",
+        "Walking distance to Kwasa Damansara MRT",
+        "Four-room layouts at 1,109 sq ft for under RM 710k"
+      ],
+      "watch": [
+        "Leasehold, on commercial land under the HDA",
+        "One listing site rates the surrounding area as high flood risk; check the site and its drainage before booking",
+        "Completion in 2029, in a township that is still being built"
+      ],
+      "suits": "MRT commuters and young families who want space for the price.",
+      "notFor": "Buyers who want a mature neighbourhood today.",
+      "updated": "November 2026"
+    }
   },
   {
     "id": "levia-residence",
@@ -175,7 +240,24 @@
       "Family sizes up to 1,364 sq ft",
       "Residential title condominium",
       "Completing 2027"
-    ]
+    ],
+    "review": {
+      "verdict": "Large family layouts in Cheras from a well-known developer, completing first among these projects.",
+      "good": [
+        "Family sizes up to 1,364 sq ft with 3+1 and 4+1 rooms",
+        "Residential title",
+        "Topped out in March 2026, with completion in 2027",
+        "Taman Kencana MRT about 900 m away"
+      ],
+      "watch": [
+        "99-year leasehold",
+        "Sold well early, so unit and floor choice is limited",
+        "MRR2 traffic at peak hours"
+      ],
+      "suits": "Families upgrading to a bigger home in Cheras.",
+      "notFor": "Investors looking for small rental units.",
+      "updated": "November 2026"
+    }
   },
   {
     "id": "the-atas",
@@ -211,7 +293,24 @@
       "624 units across 3 towers",
       "Residential title, pet friendly",
       "3+1 to 4+1 bedrooms"
-    ]
+    ],
+    "review": {
+      "verdict": "Semi-D sized homes in the sky in Taman Desa, close to Mid Valley.",
+      "good": [
+        "Only 8 units per floor, all corner units, 624 units in total",
+        "Residential title",
+        "Pet-friendly, with dual-key layouts available",
+        "About RM 714 per sq ft at the starting price, among the lowest here"
+      ],
+      "watch": [
+        "Leasehold",
+        "No rail station within walking distance; Seputeh KTM is about 1.7 km",
+        "Starts above RM 800k"
+      ],
+      "suits": "Multi-generation families and pet owners who drive.",
+      "notFor": "Buyers who rely on trains.",
+      "updated": "November 2026"
+    }
   },
   {
     "id": "the-atera-2",
@@ -246,36 +345,94 @@
       "About 400 m to Asia Jaya LRT",
       "775 to 1,420 sq ft",
       "Completing 2028"
-    ]
+    ],
+    "review": {
+      "verdict": "A transit home in mature PJ, a short walk from the LRT.",
+      "good": [
+        "About 400 m to Asia Jaya LRT",
+        "Mature Section 14 with shops, colleges and offices around it",
+        "Wide size range, from 775 to 1,420 sq ft"
+      ],
+      "watch": [
+        "Leasehold, on commercial land under the HDA",
+        "About RM 892 per sq ft at the starting price",
+        "One listing site notes Section 51A as flood-prone; check the site's flood history"
+      ],
+      "suits": "Commuters into PJ and KL, and investors renting to young professionals.",
+      "notFor": "Buyers who want a residential title.",
+      "updated": "November 2026"
+    }
   },
   {
     "id": "ukay-spring",
     "name": "Ukay Spring",
-    "developer": "Malton",
+    "developer": "Malton (Gapadu Harta Sdn Bhd)",
     "area": "Ukay Perdana, Ampang",
     "state": "Selangor",
     "type": "Landed",
-    "priceFrom": null,
+    "priceFrom": 2080000,
     "priceTo": null,
     "bedrooms": null,
-    "sizeSqft": null,
-    "sizeText": "22'×80' link villas · 40'×90' semi-Ds",
-    "tenure": "Ask for details",
-    "completion": "Ask for details",
+    "sizeSqft": [
+      3136,
+      4734
+    ],
+    "sizeText": null,
+    "tenure": "Leasehold",
+    "completion": "36 months from SPA",
     "featured": false,
     "lat": 3.201,
     "lng": 101.765,
     "hue": 110,
-    "address": "Sales gallery: Lot 126751, Jalan UP 3/3, Ukay Perdana, 68000 Ampang, Selangor",
+    "address": "Jalan Ukay Perdana 3, Taman Ukay Spring, Bandar Hulu Kelang, Selangor",
     "nearby": [
-      "Ukay Perdana interchange",
-      "MRR2, AKLEH, DUKE"
+      "Fairview International School, about 6 km",
+      "AEON AU2 Setiawangsa, about 8 km",
+      "Zoo Negara, about 8 km",
+      "Ampang Puteri Specialist Hospital, about 9 km"
     ],
-    "about": "Gated landed homes in the 56-acre Ukay Spring masterplan. Phase 1 has 142 homes: 2.5-storey link villas and 3-storey semi-detached homes.",
+    "about": "Gated landed homes in the 56-acre Ukay Spring masterplan in Ukay Perdana. Phase 1A and 1B have 142 homes on 21.5 acres: 116 link villas of 2.5 storeys and 26 semi-detached homes of 3 storeys, with a 6.4-acre private forest behind and a clubhouse for residents only.",
     "highlights": [
-      "Phase 1A & 1B, 142 homes",
-      "Link villas and semi-Ds",
-      "Clubhouse and linear parks"
-    ]
+      "Only 142 homes on 21.5 acres, gated and guarded",
+      "Private clubhouse with a 25 m pool and gym",
+      "Semi-Ds come with a home lift and 9 air-conditioners",
+      "Open to foreign buyers (RM 2M minimum)"
+    ],
+    "units": [
+      {
+        "label": "2.5-storey link villa",
+        "price": 2080000,
+        "builtUp": "3,136 – 3,453 sq ft",
+        "land": "22' × 80' (corner 42' × 80')",
+        "count": 116
+      },
+      {
+        "label": "3-storey semi-D",
+        "price": 3400000,
+        "builtUp": "4,734 sq ft",
+        "land": "40'–71' × 90'",
+        "count": 26
+      }
+    ],
+    "review": {
+      "verdict": "Low-density landed living next to a private forest, for families who drive.",
+      "good": [
+        "Only 142 homes on 21.5 acres, gated and guarded with a 3-tier security system",
+        "A 6.4-acre private forest behind Phase 1B and a residents-only clubhouse",
+        "Semi-Ds come with a lift, 9 air-conditioners and parking for 4 cars",
+        "Elevated at about 167 m above sea level",
+        "Link villas from RM 2.08M clear Selangor's RM 2M minimum for foreigners"
+      ],
+      "watch": [
+        "Leasehold to 2107; the developer says it will renew to 99 years from 2026, so confirm this in the SPA",
+        "About 20 km from KL city centre, so a car is essential",
+        "Hillside site; the developer reports slope approvals are in place",
+        "Resale is not allowed during construction",
+        "Link villas come without air-conditioners"
+      ],
+      "suits": "Families upgrading to landed, and MM2H buyers who want a gated home.",
+      "notFor": "Buyers who need rail access or a short commute to the city.",
+      "updated": "November 2026"
+    }
   }
 ]
