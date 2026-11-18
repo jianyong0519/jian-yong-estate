@@ -13,9 +13,8 @@ export default function Gallery({ p }) {
   return (
     <div className="gallery">
       <div className="p-hero">
-        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <Photo src={imgs[i]} alt={`${p.name}, image ${i + 1} of ${imgs.length}`} />
         <span className="ai-tag">Artist impression only</span>
-        <img src={imgs[i]} alt={`${p.name}, image ${i + 1} of ${imgs.length}`} style={{ objectPosition: i === 0 ? p.imageFocus || "center" : "center" }} />
       </div>
       {imgs.length > 1 && (
         <div className="thumbs" role="list">
