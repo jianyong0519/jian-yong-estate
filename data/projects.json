@@ -265,12 +265,12 @@
   {
     "id": "the-atas",
     "name": "The Atas",
-    "developer": "Maxim Global",
+    "developer": "Maxim Global (Kaisar Maxim Sdn Bhd)",
     "area": "Taman Desa",
     "state": "Kuala Lumpur",
     "type": "Condominium",
-    "priceFrom": 825000,
-    "priceTo": 1103000,
+    "priceFrom": 808000,
+    "priceTo": 1157000,
     "bedrooms": [
       3,
       5
@@ -280,40 +280,80 @@
       1518
     ],
     "sizeText": null,
-    "tenure": "Leasehold",
+    "tenure": "Leasehold (2024–2123)",
     "completion": "2028",
     "featured": true,
     "lat": 3.101,
     "lng": 101.684,
     "hue": 15,
-    "address": "66 Jalan Taman Bukit Desa, Taman Bukit Desa, 58100 Kuala Lumpur",
+    "address": "Jalan Desa Utama, Taman Desa, 58100 Kuala Lumpur",
     "nearby": [
       "Seputeh KTM, about 1.7 km",
       "Mid Valley Megamall, about 4 km"
     ],
-    "about": "Low-density condominium in Taman Desa with eight units per floor and layouts for multi-generation families.",
+    "about": "Three 30-storey towers of 208 units each in Taman Desa, 624 units in all, designed for multi-generation families. Layouts run from 1,156 to 1,518 sq ft with 3+1 to 4+1 rooms, and every unit has 2 to 3 car parks. Facilities include a 25 m pool, tennis and half-basketball courts, a badminton hall and a sky pavilion.",
     "highlights": [
-      "624 units across 3 towers",
-      "Residential title, pet friendly",
-      "3+1 to 4+1 bedrooms"
+      "Low density: 624 units in 3 towers",
+      "2 to 3 car parks for every unit",
+      "Air-conditioners and instant water heaters installed",
+      "Pet-friendly development with KL city views",
+      "Foreigners can buy units priced above RM 1M"
     ],
     "review": {
-      "verdict": "Semi-D sized homes in the sky in Taman Desa, close to Mid Valley.",
+      "verdict": "Spacious family homes in Taman Desa, close to Mid Valley, at one of the lowest prices per square foot on this site.",
       "good": [
-        "Only 8 units per floor, all corner units, 624 units in total",
-        "Residential title",
-        "Pet-friendly, with dual-key layouts available",
-        "About RM 714 per sq ft at the starting price, among the lowest here"
+        "Low density: 624 units in 3 towers, with 2 to 3 car parks per unit",
+        "Residential title, and a pet-friendly development",
+        "Air-conditioners and instant water heaters come installed",
+        "About RM 699 per sq ft at the starting price, among the lowest here"
       ],
       "watch": [
-        "Leasehold",
+        "Leasehold, running to 2123",
         "No rail station within walking distance; Seputeh KTM is about 1.7 km",
-        "Starts above RM 800k"
+        "EV charging is limited to 10 shared bays; owners can't install their own charger for now",
+        "No hackable walls, so layouts can't be opened up"
       ],
       "suits": "Multi-generation families and pet owners who drive.",
       "notFor": "Buyers who rely on trains.",
       "updated": "November 2026"
-    }
+    },
+    "images": [
+      "/projects/the-atas-1.jpg",
+      "/projects/the-atas-2.jpg",
+      "/projects/the-atas-3.jpg",
+      "/projects/the-atas-4.jpg",
+      "/projects/the-atas-5.jpg"
+    ],
+    "units": [
+      {
+        "label": "Type A/A1",
+        "price": 835000,
+        "priceTo": 929000,
+        "builtUp": "1,156 sq ft",
+        "rooms": "3+1 rooms, 3 baths"
+      },
+      {
+        "label": "Type B/B1",
+        "price": 808000,
+        "priceTo": 870000,
+        "builtUp": "1,156 sq ft",
+        "rooms": "3+1 rooms, 3 baths"
+      },
+      {
+        "label": "Type C/C1",
+        "price": 949000,
+        "priceTo": 1018000,
+        "builtUp": "1,321 sq ft",
+        "rooms": "4 rooms, 3 baths, dual key"
+      },
+      {
+        "label": "Type D/D1",
+        "price": 1081000,
+        "priceTo": 1157000,
+        "builtUp": "1,518 sq ft",
+        "rooms": "4+1 rooms, 4 baths"
+      }
+    ]
   },
   {
     "id": "the-atera-2",
