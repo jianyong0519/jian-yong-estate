@@ -178,8 +178,8 @@
     "area": "WCity OUG",
     "state": "Kuala Lumpur",
     "type": "Serviced Residence",
-    "priceFrom": 745920,
-    "priceTo": 1152480,
+    "priceFrom": 666000,
+    "priceTo": 950000,
     "bedrooms": [
       2,
       3
@@ -217,7 +217,7 @@
       "verdict": "Freehold in a large park township at a fair price per square foot, with a long build ahead.",
       "good": [
         "Freehold, facing the WCity OUG central park",
-        "About RM 878 per sq ft at the lowest SPA price",
+        "About RM 784 per sq ft at the lowest SPA price",
         "Practical 2-room and 3-room layouts, each with 2 bathrooms",
         "50 m lap pool, feature cabana and sky terrace"
       ],
@@ -234,14 +234,14 @@
     "units": [
       {
         "label": "Type A/A1",
-        "price": 745920,
+        "price": null,
         "builtUp": "850 sq ft",
         "rooms": "2 rooms, 2 baths",
         "floorPlan": "/projects/aras-residences-plan-a.jpg"
       },
       {
         "label": "Type B/B1",
-        "price": 918400,
+        "price": null,
         "builtUp": "1,062 sq ft",
         "rooms": "3 rooms, 2 baths",
         "floorPlan": "/projects/aras-residences-plan-b.jpg"
