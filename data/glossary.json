@@ -18,18 +18,6 @@
     "definition": "The part of the price you pay yourself, usually 10% on signing the SPA. The bank loan covers the rest."
   },
   {
-    "term": "Gross price / Net price",
-    "category": "Buying",
-    "aka": "",
-    "definition": "The gross price is the developer's list price. The net price is what you pay after rebates. Ask for both, and for which one appears in the SPA."
-  },
-  {
-    "term": "Rebate",
-    "category": "Buying",
-    "aka": "",
-    "definition": "A discount from the developer, such as an early-bird rebate. Packages advertised as “0% down payment” usually use a rebate to cover the down payment."
-  },
-  {
     "term": "Progress billing",
     "category": "Buying",
     "aka": "Progressive payment",
@@ -256,5 +244,11 @@
     "category": "Costs & tax",
     "aka": "",
     "definition": "Out-of-pocket costs your lawyer pays for you, such as searches, registration and courier fees, billed on top of legal fees."
+  },
+  {
+    "term": "SPA price",
+    "category": "Buying",
+    "aka": "",
+    "definition": "The purchase price written in the Sale and Purchase Agreement. It is the price shown on this website, and the bank loan and stamp duty are based on it."
   }
 ]

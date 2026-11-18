@@ -10,7 +10,7 @@ export const metadata = {
     template: `%s | ${SITE.name}`,
   },
   description:
-    "New launch condos and landed homes in Kuala Lumpur and Selangor: starting prices, layouts, locations and MM2H guidance from Yap Jian Yong.",
+    "New launch condos and landed homes in Kuala Lumpur and Selangor: SPA prices, layouts, locations and MM2H guidance from Yap Jian Yong.",
   openGraph: { siteName: SITE.name, locale: "en_MY", type: "website" },
   robots: SITE.live ? { index: true, follow: true } : { index: false, follow: false },
 };

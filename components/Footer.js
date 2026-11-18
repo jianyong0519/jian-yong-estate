@@ -7,8 +7,7 @@ export default function Footer() {
         <div>
           <b style={{ color: "var(--ink)", fontFamily: "var(--display)" }}>{SITE.name}</b>
           <br />
-          New launch condos and landed homes in Kuala Lumpur and Selangor. Prices shown are developer list
-          prices before rebates; ask for the net price.
+          New launch condos and landed homes in Kuala Lumpur and Selangor. All prices shown are SPA prices.
           <br /><br />
           <span className="small">© {new Date().getFullYear()} {SITE.name}</span>
         </div>

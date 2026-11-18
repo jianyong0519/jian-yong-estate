@@ -14,7 +14,7 @@ export function generateMetadata({ params }) {
   if (!p) return {};
   return {
     title: `${p.name}, ${p.area}`,
-    description: `${p.name} in ${p.area}, ${p.state}: ${p.type.toLowerCase()}${p.priceFrom ? ` from ${fmtRM(p.priceFrom)}` : ""}, ${p.tenure.toLowerCase()}, completion ${p.completion}. Floor plans and net price from ${SITE.agentName}.`,
+    description: `${p.name} in ${p.area}, ${p.state}: ${p.type.toLowerCase()}${p.priceFrom ? ` from ${fmtRM(p.priceFrom)}` : ""}, ${p.tenure.toLowerCase()}, completion ${p.completion}. Floor plans and price list from ${SITE.agentName}.`,
   };
 }
 
@@ -23,7 +23,7 @@ export default function ProjectPage({ params }) {
   if (!p) notFound();
 
   const facts = [
-    ["Starting price", p.priceFrom ? fmtRM(p.priceFrom) : "Ask for price"],
+    ["SPA price from", p.priceFrom ? fmtRM(p.priceFrom) : "Ask for price"],
     p.units?.length > 1 && !p.priceTo
       ? [`${p.units[p.units.length - 1].label} from`, fmtRM(p.units[p.units.length - 1].price)]
       : ["Up to", p.priceTo ? fmtRM(p.priceTo) : "—"],
@@ -59,7 +59,7 @@ export default function ProjectPage({ params }) {
           </div>
           {psf && (
             <p className="small" style={{ marginTop: 8 }}>
-              About <span className="num">RM {psf.toLocaleString("en-MY")}</span> per sq ft on the smallest layout at the starting price.
+              About <span className="num">RM {psf.toLocaleString("en-MY")}</span> per sq ft on the smallest layout at the lowest SPA price.
             </p>
           )}
 
@@ -119,7 +119,7 @@ export default function ProjectPage({ params }) {
 
           <div className="prose">
             <h2 style={{ marginTop: 0 }}>Floor plans &amp; brochure</h2>
-            <p>Floor plans, the price list and the latest rebates are sent on WhatsApp so you get the current version.</p>
+            <p>Floor plans and the full price list are sent on WhatsApp so you get the current version.</p>
           </div>
 
           <div className="locsec">
@@ -146,13 +146,13 @@ export default function ProjectPage({ params }) {
 
         <aside className="side">
           <div className="box">
-            <span className="small">Starting from</span>
+            <span className="small">SPA price from</span>
             <b className="num" style={{ fontSize: 26, color: "var(--price)" }}>{p.priceFrom ? fmtRM(p.priceFrom) : "Ask for price"}</b>
             <a className="btn wa" target="_blank" rel="noopener noreferrer"
-               href={waLink(`Hi ${SITE.shortName}, I'm interested in ${p.name}. Could you send the floor plans and net price?`)}>
-              Get floor plans &amp; net price
+               href={waLink(`Hi ${SITE.shortName}, I'm interested in ${p.name}. Could you send the floor plans and price list?`)}>
+              Get floor plans &amp; price list
             </a>
-            <span className="small">Gross developer price. Net price after rebates on request.</span>
+            <span className="small">SPA price.</span>
           </div>
           {p.priceFrom && <LoanCalculator price={p.priceFrom} />}
         </aside>

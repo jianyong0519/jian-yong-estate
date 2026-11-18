@@ -24,7 +24,7 @@ export default function ProjectCard({ p }) {
           <div><span>Done</span><b>{isAsk(p.completion) ? "—" : p.completion}</b></div>
         </div>
         <div className="price">
-          <span>Starting price</span>
+          <span>SPA price from</span>
           <b className="num">{p.priceFrom ? fmtRM(p.priceFrom) : "Ask for price"}</b>
         </div>
       </div>

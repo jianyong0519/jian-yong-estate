@@ -31,6 +31,10 @@ Copy one project block in `data/projects.json` (from `{` to `}`), paste it after
 
 If the site stops updating after an edit, the file usually has a missing comma or quote. Vercel's Deployments page shows the error line.
 
+## Price rule
+
+- Always show the SPA price. Never show rebates, net prices or discounted prices.
+
 ## Photo rules
 
 - Every project photo is shown in full, never cropped or enlarged, in a 16:9 frame with black bars at the sides. The same applies on the home cards, the Properties list and the project page.

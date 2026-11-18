@@ -17,12 +17,12 @@ export default function Home() {
           <div className="eyebrow">New launch condos &amp; landed homes</div>
           <h1>Find a new home in KL and Selangor, priced and compared</h1>
           <p>
-            Floor plans, starting prices and completion dates for the projects I cover. Tell me your budget and
-            I&apos;ll send the units that fit, with the net price after rebates.
+            Floor plans, SPA prices and completion dates for the projects I cover. Tell me your budget and
+            I&apos;ll send the units that fit.
           </p>
           <div className="stats">
             <div><b>{PROJECTS.length}</b><span>projects listed</span></div>
-            {lowest && <div><b>{shortRM(lowest)}</b><span>lowest starting price</span></div>}
+            {lowest && <div><b>{shortRM(lowest)}</b><span>lowest SPA price</span></div>}
             <div><b>{states.length}</b><span>states covered</span></div>
           </div>
         </div>
@@ -31,7 +31,7 @@ export default function Home() {
 
       <section>
         <div className="sec-head">
-          <div><h2>Featured new launches</h2><p>Starting prices are gross developer list prices.</p></div>
+          <div><h2>Featured new launches</h2><p>All prices shown are SPA prices.</p></div>
           <Link href="/properties">View all →</Link>
         </div>
         <div className="grid">{featured.map((p) => <ProjectCard key={p.id} p={p} />)}</div>
@@ -54,14 +54,14 @@ export default function Home() {
           <h2 style={{ fontSize: 26, margin: "6px 0 8px" }}>Hi, I&apos;m {SITE.shortName}</h2>
           <p className="muted" style={{ maxWidth: "60ch", margin: 0 }}>
             I work in finance by day, so I read the numbers closely: price per square foot, the loan you&apos;d
-            actually need, and what the rebates are worth. I help you shortlist projects, book show-unit viewings
+            actually need, and the full cost of buying. I help you shortlist projects, book show-unit viewings
             and go through the SPA.
           </p>
         </div>
         <div className="box">
-          <span className="small">Message me for floor plans, net prices and viewing slots</span>
+          <span className="small">Message me for floor plans, price lists and viewing slots</span>
           <a className="btn wa" target="_blank" rel="noopener noreferrer"
-             href={waLink(`Hi ${SITE.shortName}, I'd like floor plans and net prices for a few projects.`)}>Chat on WhatsApp</a>
+             href={waLink(`Hi ${SITE.shortName}, I'd like floor plans and price lists for a few projects.`)}>Chat on WhatsApp</a>
           <span className="small">WhatsApp <span className="num">{SITE.whatsappDisplay}</span></span>
         </div>
       </section>
