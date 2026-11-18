@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import Cover from "./Cover";
+import Cover, { Photo } from "./Cover";
 
 // Shows the project's photos. The first image in "images" is the facade / cover.
 // Without photos it falls back to the illustrated skyline.

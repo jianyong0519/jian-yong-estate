@@ -103,11 +103,14 @@ section+section{margin-top:56px}
 /* project page */
 .back{display:inline-flex;gap:6px;text-decoration:none;color:var(--muted);margin-bottom:16px}
 .p-hero{border-radius:16px;overflow:hidden;aspect-ratio:21/8;max-width:100%}
-.p-hero svg,.p-hero img{width:100%;height:100%;display:block;object-fit:cover}
+.p-hero svg{width:100%;height:100%;display:block}
 .gallery{display:grid;gap:10px}
 .p-hero{position:relative}
 .ai-tag{position:absolute;right:10px;bottom:10px;z-index:1;background:rgb(0 0 0 / .55);color:#fff;font-size:11px;font-weight:500;letter-spacing:.02em;padding:3px 8px;border-radius:6px;pointer-events:none}
-.gallery .p-hero{aspect-ratio:16/9;max-height:560px}
+.gallery .p-hero{aspect-ratio:auto;height:min(640px,80vh)}
+.photo{position:relative;width:100%;height:100%;overflow:hidden;background:var(--sunk)}
+.photo-bg{position:absolute;inset:-20px;background-size:cover;background-position:center;filter:blur(18px) brightness(.85)}
+.photo img{position:relative;width:100%;height:100%;object-fit:contain;display:block}
 .thumbs{display:flex;gap:8px;overflow-x:auto;padding-bottom:4px}
 .thumbs button{flex:0 0 auto;width:96px;aspect-ratio:4/3;padding:0;border:2px solid transparent;border-radius:8px;overflow:hidden;cursor:pointer;background:var(--sunk)}
 .thumbs button[aria-pressed="true"]{border-color:var(--accent)}
