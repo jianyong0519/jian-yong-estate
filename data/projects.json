@@ -257,7 +257,10 @@
       "suits": "Families upgrading to a bigger home in Cheras.",
       "notFor": "Investors looking for small rental units.",
       "updated": "November 2026"
-    }
+    },
+    "images": [
+      "/projects/levia-residence-1.jpg"
+    ]
   },
   {
     "id": "the-atas",
