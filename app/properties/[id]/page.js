@@ -24,9 +24,6 @@ export default function ProjectPage({ params }) {
 
   const facts = [
     ["SPA price from", p.priceFrom ? fmtRM(p.priceFrom) : "Ask for price"],
-    p.units?.length > 1 && !p.priceTo
-      ? [`${p.units[p.units.length - 1].label} from`, fmtRM(p.units[p.units.length - 1].price)]
-      : ["Up to", p.priceTo ? fmtRM(p.priceTo) : "—"],
     ["Bedrooms", p.bedrooms ? range(p.bedrooms) : "Ask"],
     ["Built-up", p.sizeSqft ? range(p.sizeSqft, " sq ft") : p.sizeText || "Ask"],
     ["Tenure", p.tenure],
@@ -68,12 +65,12 @@ export default function ProjectPage({ params }) {
               <h2>Unit types &amp; prices</h2>
               <div className="tablewrap">
                 <table style={{ minWidth: 560 }}>
-                  <thead><tr><th>Type</th><th>SPA price</th><th>Built-up</th>{p.units.some((u) => u.rooms) && <th>Layout</th>}{p.units.some((u) => u.land) && <th>Land</th>}{p.units.some((u) => u.count) && <th>Units</th>}</tr></thead>
+                  <thead><tr><th>Type</th><th>SPA price from</th><th>Built-up</th>{p.units.some((u) => u.rooms) && <th>Layout</th>}{p.units.some((u) => u.land) && <th>Land</th>}{p.units.some((u) => u.count) && <th>Units</th>}</tr></thead>
                   <tbody>
                     {p.units.map((u) => (
                       <tr key={u.label}>
                         <td style={{ fontWeight: 600 }}>{u.label}</td>
-                        <td className="num" style={{ color: "var(--price)", fontWeight: 600 }}>{u.priceTo ? `${fmtRM(u.price)} – ${fmtRM(u.priceTo)}` : `From ${fmtRM(u.price)}`}</td>
+                        <td className="num" style={{ color: "var(--price)", fontWeight: 600 }}>From {fmtRM(u.price)}</td>
                         <td className="num">{u.builtUp}</td>
                         {p.units.some((x) => x.rooms) && <td>{u.rooms}</td>}
                         {p.units.some((x) => x.land) && <td className="num">{u.land}</td>}

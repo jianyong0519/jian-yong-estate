@@ -34,6 +34,7 @@ If the site stops updating after an edit, the file usually has a missing comma o
 ## Price rule
 
 - Always show the SPA price. Never show rebates, net prices or discounted prices.
+- Show only the starting SPA price, never a price range. (`priceTo` is used behind the scenes for filters and the MM2H checker, and is never displayed.)
 
 ## Photo rules
 

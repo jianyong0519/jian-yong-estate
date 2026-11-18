@@ -32,7 +32,7 @@ export default function MM2HQualifier({ projects }) {
           <div className="small">
             {p.area} · needs <span className="num">{shortRM(need)}</span> ·{" "}
             {p.priceFrom ? (
-              <>from <span className="num">{shortRM(p.priceFrom)}</span>{p.priceTo && <> to <span className="num">{shortRM(p.priceTo)}</span></>}</>
+              <>SPA price from <span className="num">{shortRM(p.priceFrom)}</span></>
             ) : "price on request"}
           </div>
         </div>
