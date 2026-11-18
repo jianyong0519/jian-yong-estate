@@ -6,19 +6,19 @@
     "area": "Bukit Jalil",
     "state": "Kuala Lumpur",
     "type": "Condominium",
-    "priceFrom": 836000,
-    "priceTo": null,
+    "priceFrom": 780000,
+    "priceTo": 1330000,
     "bedrooms": [
       2,
       3
     ],
     "sizeSqft": [
       882,
-      1423
+      1509
     ],
     "sizeText": null,
     "tenure": "Freehold",
-    "completion": "2028",
+    "completion": "Q1 2028",
     "featured": true,
     "lat": 3.0568,
     "lng": 101.6935,
@@ -52,7 +52,7 @@
         "Walking distance to IMU and Columbia Asia Hospital, about 1 km away"
       ],
       "watch": [
-        "About RM 948 per sq ft at the lowest SPA price shown, among the highest on this site",
+        "About RM 820 to 950 per sq ft, depending on the tower",
         "Maintenance fee of about RM 0.51 per sq ft, higher than most projects here",
         "No LRT within walking distance; Sri Petaling and Awan Besar need a short drive",
         "Extra car parks can't be bought"
@@ -63,16 +63,28 @@
     },
     "units": [
       {
-        "label": "Type A",
+        "label": "Type A1",
         "price": null,
         "builtUp": "882 sq ft",
-        "rooms": "2 bedrooms, 2 baths, 2 car parks"
+        "rooms": "2 bedrooms, 2 baths, balcony, 2 car parks"
+      },
+      {
+        "label": "Type A1a",
+        "price": null,
+        "builtUp": "915 sq ft",
+        "rooms": "2 bedrooms, 2 baths, balcony (levels 11 & 17)"
       },
       {
         "label": "Type B1/B2",
         "price": null,
         "builtUp": "1,182 sq ft",
-        "rooms": "2+1 bedrooms, 2 baths, dry & wet kitchen, 2 car parks"
+        "rooms": "2+1 bedrooms, 2 baths, balcony, 2 car parks"
+      },
+      {
+        "label": "Type B1a/B2a",
+        "price": null,
+        "builtUp": "1,262 sq ft",
+        "rooms": "2+1 bedrooms, 2 baths, balcony (levels 11 & 17)"
       },
       {
         "label": "Type B3",
@@ -81,11 +93,30 @@
         "rooms": "2+1 bedrooms, 2 baths, lanai, 2 car parks"
       },
       {
+        "label": "Type B3a",
+        "price": null,
+        "builtUp": "1,240 sq ft",
+        "rooms": "2+1 bedrooms, 2 baths, lanai (levels 11 & 17)"
+      },
+      {
         "label": "Type C",
         "price": null,
         "builtUp": "1,423 sq ft",
-        "rooms": "3 bedrooms, 3 baths, dry & wet kitchen, 3 car parks"
+        "rooms": "3 bedrooms, 3 baths, balcony, 3 car parks"
+      },
+      {
+        "label": "Type C1a",
+        "price": null,
+        "builtUp": "1,509 sq ft",
+        "rooms": "3 bedrooms, 3 baths, balcony (levels 11 & 17)"
       }
+    ],
+    "images": [
+      "/projects/oaka-residences-1.jpg",
+      "/projects/oaka-residences-2.jpg",
+      "/projects/oaka-residences-3.jpg",
+      "/projects/oaka-residences-4.jpg",
+      "/projects/oaka-residences-5.jpg"
     ]
   },
   {
