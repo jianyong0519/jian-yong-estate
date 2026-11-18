@@ -37,7 +37,7 @@ export default function PropertiesBrowser({ projects }) {
       if (state && p.state !== state) return false;
       if (type && p.type !== type) return false;
       if ((mn || mx) && !p.priceFrom) return false;
-      if (mn && (p.priceTo || p.priceFrom) < mn) return false;
+      if (mn && p.priceFrom < mn) return false; // filters follow the SPA price shown, never a hidden range
       if (mx && p.priceFrom > mx) return false;
       if (bd && (!p.bedrooms || p.bedrooms[1] < bd)) return false;
       return true;
