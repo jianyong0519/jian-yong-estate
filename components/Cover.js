@@ -1,10 +1,9 @@
 // Illustrated skyline used until real project photos are added.
 // To use a photo instead, put it in /public/projects/<id>.jpg and add "image": "/projects/<id>.jpg" to the project in projects.json.
-// Shows the whole photo without cropping; the empty sides are filled with a blurred copy.
+// Shows the whole photo at its own proportions, never enlarged; the empty sides are black.
 export function Photo({ src, alt }) {
   return (
     <div className="photo">
-      <div className="photo-bg" style={{ backgroundImage: `url(${src})` }} aria-hidden="true" />
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img src={src} alt={alt} />
     </div>
