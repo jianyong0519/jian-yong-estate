@@ -233,7 +233,7 @@
   {
     "id": "devia-residences",
     "name": "D'Evia Residences",
-    "developer": "Exsim",
+    "developer": "EXSIM Group (EXSIM MX4 Sdn Bhd)",
     "area": "Kwasa Damansara",
     "state": "Selangor",
     "type": "Serviced Residence",
@@ -254,32 +254,84 @@
     "lat": 3.179,
     "lng": 101.573,
     "hue": 30,
-    "address": "Jalan Sungai Buloh, Kwasa Damansara, Selangor",
+    "address": "Jalan Sungai Buloh, Kwasa Damansara, 47810 Selangor",
     "nearby": [
-      "Kwasa Damansara MRT, walking distance"
+      "Kwasa Sentral MRT, about 600 m (8-minute walk)",
+      "Thomson Hospital Kota Damansara, 2.3 km",
+      "Sunway Giza Mall, 3.2 km",
+      "IOI Mall Damansara, 3.6 km",
+      "The Curve, 5.0 km",
+      "1 Utama Shopping Centre, 5.9 km",
+      "Sunway Medical Centre Damansara, 6.1 km",
+      "TLS International School, Sri KDU, Help University nearby"
     ],
-    "about": "Low-density serviced residence of 440 units in the Kwasa Damansara transit township, walking distance to the MRT.",
+    "about": "A single 32-storey tower of 440 serviced residences on 2.014 acres in the Kwasa Damansara transit township, about 600 m from Kwasa Sentral MRT. Layouts run from 657 sq ft with 2 rooms to 1,109 sq ft with 4 rooms, every unit has 2 bathrooms, and facilities sit on the Level 8 and 9 decks.",
     "highlights": [
-      "Only 440 units",
-      "Walk to Kwasa Damansara MRT",
-      "2 to 4 bedroom layouts"
+      "Only 440 units in one tower",
+      "About 600 m (8-minute walk) to Kwasa Sentral MRT",
+      "2 car parks for every unit",
+      "Swimming pool, kids pool, gym, games room and pickleball court",
+      "Healing garden, herb garden, BBQ area and outdoor gym",
+      "Maintenance fee RM 0.46 psf including sinking fund"
     ],
     "review": {
       "verdict": "A low-density MRT home with up to four rooms for under RM 710k.",
       "good": [
-        "Only 440 units, low density for a high-rise",
-        "Walking distance to Kwasa Damansara MRT",
-        "Four-room layouts at 1,109 sq ft for under RM 710k"
+        "Only 440 units in one tower, low density for a high-rise",
+        "About 600 m, an 8-minute walk, to Kwasa Sentral MRT",
+        "2 car parks for every unit, and 4-room layouts at 1,109 sq ft",
+        "Hackable walls on every layout let you open up the kitchen"
       ],
       "watch": [
         "Leasehold, on commercial land under the HDA",
-        "One listing site rates the surrounding area as high flood risk; check the site and its drainage before booking",
-        "Completion in 2029, in a township that is still being built"
+        "20 units per floor on the main levels, served by 4+1 lifts",
+        "Maintenance fee of RM 0.46 psf, on the higher side",
+        "Kwasa Damansara is still being built out, so amenities are a short drive away"
       ],
       "suits": "MRT commuters and young families who want space for the price.",
       "notFor": "Buyers who want a mature neighbourhood today.",
       "updated": "November 2026"
-    }
+    },
+    "units": [
+      {
+        "label": "Type A",
+        "price": null,
+        "builtUp": "657 sq ft",
+        "rooms": "2 rooms, 2 baths, 2 car parks",
+        "floorPlan": "/projects/devia-residences-plan-a.jpg"
+      },
+      {
+        "label": "Type B1/B2",
+        "price": null,
+        "builtUp": "958 sq ft",
+        "rooms": "3 rooms, 2 baths, 2 car parks (B1 with balcony)",
+        "floorPlan": "/projects/devia-residences-plan-b.jpg"
+      },
+      {
+        "label": "Type B3/B4",
+        "price": null,
+        "builtUp": "958 sq ft",
+        "rooms": "3 rooms, 2 baths, 2 car parks (B3 with balcony)",
+        "floorPlan": "/projects/devia-residences-plan-c.jpg"
+      },
+      {
+        "label": "Type C1/C2",
+        "price": null,
+        "builtUp": "1,109 sq ft",
+        "rooms": "4 rooms, 2 baths, 1+1 tandem and 1 single car park (C1 with balcony)",
+        "floorPlan": "/projects/devia-residences-plan-d.jpg"
+      }
+    ],
+    "images": [
+      "/projects/devia-residences-1.jpg",
+      "/projects/devia-residences-2.jpg",
+      "/projects/devia-residences-3.jpg",
+      "/projects/devia-residences-4.jpg",
+      "/projects/devia-residences-5.jpg",
+      "/projects/devia-residences-6.jpg",
+      "/projects/devia-residences-7.jpg",
+      "/projects/devia-residences-8.jpg"
+    ]
   },
   {
     "id": "levia-residence",
