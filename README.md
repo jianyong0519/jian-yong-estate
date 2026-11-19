@@ -38,6 +38,8 @@ If the site stops updating after an edit, the file usually has a missing comma o
 
 ## Photo rules
 
+- Do not show layout or floor plan images on the website.
+
 - Every project photo is shown in full, never cropped or enlarged, in a 16:9 frame with black bars at the sides. The same applies on the home cards, the Properties list and the project page.
 - Every photo carries an "Artist impression only" label in the bottom-right corner, added automatically.
 - Remove marketing wording (slogans, paragraphs, the developer's own "artist's illustration" tag) from renders before uploading. Keep signage that is part of the building.

@@ -212,15 +212,13 @@
         "label": "Type A/A1",
         "price": null,
         "builtUp": "850 sq ft",
-        "rooms": "2 rooms, 2 baths",
-        "floorPlan": "/projects/aras-residences-plan-a.jpg"
+        "rooms": "2 rooms, 2 baths"
       },
       {
         "label": "Type B/B1",
         "price": null,
         "builtUp": "1,062 sq ft",
-        "rooms": "3 rooms, 2 baths",
-        "floorPlan": "/projects/aras-residences-plan-b.jpg"
+        "rooms": "3 rooms, 2 baths"
       }
     ],
     "images": [
@@ -297,29 +295,25 @@
         "label": "Type A",
         "price": null,
         "builtUp": "657 sq ft",
-        "rooms": "2 rooms, 2 baths, 2 car parks",
-        "floorPlan": "/projects/devia-residences-plan-a.jpg"
+        "rooms": "2 rooms, 2 baths, 2 car parks"
       },
       {
         "label": "Type B1/B2",
         "price": null,
         "builtUp": "958 sq ft",
-        "rooms": "3 rooms, 2 baths, 2 car parks (B1 with balcony)",
-        "floorPlan": "/projects/devia-residences-plan-b.jpg"
+        "rooms": "3 rooms, 2 baths, 2 car parks (B1 with balcony)"
       },
       {
         "label": "Type B3/B4",
         "price": null,
         "builtUp": "958 sq ft",
-        "rooms": "3 rooms, 2 baths, 2 car parks (B3 with balcony)",
-        "floorPlan": "/projects/devia-residences-plan-c.jpg"
+        "rooms": "3 rooms, 2 baths, 2 car parks (B3 with balcony)"
       },
       {
         "label": "Type C1/C2",
         "price": null,
         "builtUp": "1,109 sq ft",
-        "rooms": "4 rooms, 2 baths, 1+1 tandem and 1 single car park (C1 with balcony)",
-        "floorPlan": "/projects/devia-residences-plan-d.jpg"
+        "rooms": "4 rooms, 2 baths, 1+1 tandem and 1 single car park (C1 with balcony)"
       }
     ],
     "images": [
