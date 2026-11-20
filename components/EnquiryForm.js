@@ -48,13 +48,13 @@ export default function EnquiryForm({ projectName }) {
     <form className="box enquiry" onSubmit={submit} noValidate>
       <h3>Send an Enquiry</h3>
 
-      <label htmlFor="enqName">Your Name <span className="req">*</span>
+      <label htmlFor="enqName"><span>Your Name <span className="req">*</span></span>
         <input id="enqName" className="field" autoComplete="name" placeholder="e.g. Abc"
                value={name} onChange={(e) => setName(e.target.value)} aria-invalid={!!errors.name} />
         {errors.name && <span className="err">{errors.name}</span>}
       </label>
 
-      <label htmlFor="enqPhone">Phone Number <span className="req">*</span>
+      <label htmlFor="enqPhone"><span>Phone Number <span className="req">*</span></span>
         <input id="enqPhone" className="field num" type="tel" autoComplete="tel" placeholder="+60123456789"
                value={phone} onChange={(e) => setPhone(e.target.value)} aria-invalid={!!errors.phone} />
         {errors.phone && <span className="err">{errors.phone}</span>}

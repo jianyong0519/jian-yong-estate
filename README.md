@@ -31,6 +31,10 @@ Copy one project block in `data/projects.json` (from `{` to `}`), paste it after
 
 If the site stops updating after an edit, the file usually has a missing comma or quote. Vercel's Deployments page shows the error line.
 
+## Theme
+
+- Soft Blue theme (version D): blue accent `#1557C0`, pale blue panels, rounded cards and pill buttons, Outfit headings with DM Sans text. All colours are the tokens at the top of `app/globals.css`.
+
 ## Price rule
 
 - Always show the SPA price. Never show rebates, net prices or discounted prices.

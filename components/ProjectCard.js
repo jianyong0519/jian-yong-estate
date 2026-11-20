@@ -8,12 +8,12 @@ export default function ProjectCard({ p }) {
       <div className="cover">
         <Cover p={p} />
         {(p.images?.length > 0 || p.image) && <span className="ai-tag">Artist impression only</span>}
+      </div>
+      <div className="body">
         <div className="tags">
           <span className="tag">{p.type}</span>
           <span className="tag">{tenureTag(p.tenure)}</span>
         </div>
-      </div>
-      <div className="body">
         <div className="dev">{p.developer || "New launch"}</div>
         <h3>{p.name}</h3>
         <div className="loc">{p.area}, {p.state}</div>
