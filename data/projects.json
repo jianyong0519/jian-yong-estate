@@ -330,7 +330,7 @@
   {
     "id": "levia-residence",
     "name": "LEVIA Residence",
-    "developer": "Matrix Concepts",
+    "developer": "Matrix Concepts (Cheras) Sdn Bhd",
     "area": "Cheras",
     "state": "Kuala Lumpur",
     "type": "Condominium",
@@ -345,8 +345,8 @@
       1364
     ],
     "sizeText": null,
-    "tenure": "99-year leasehold",
-    "completion": "2027",
+    "tenure": "99-year leasehold (expires 30 January 2122)",
+    "completion": "July 2027",
     "featured": true,
     "lat": 3.122,
     "lng": 101.748,
@@ -356,7 +356,7 @@
       "Taman Kencana MRT, about 900 m",
       "MRR2"
     ],
-    "about": "Two-tower family condominium of 778 units in Pandan Perdana, Cheras, with hotel-style facilities.",
+    "about": "Two towers of 389 units each, 778 in all, in Pandan Perdana, Cheras, with views towards KLCC. Family layouts run from 938 sq ft with 3 bedrooms to 1,364 sq ft with 4+1 bedrooms, and the larger types have a junior master bedroom and a utility room. Bedrooms are laminated and bathrooms are tiled to ceiling height.",
     "highlights": [
       "Family sizes up to 1,364 sq ft",
       "Residential title condominium",
@@ -381,6 +381,26 @@
     },
     "images": [
       "/projects/levia-residence-1.jpg"
+    ],
+    "units": [
+      {
+        "label": "Type B/B1",
+        "price": null,
+        "builtUp": "938 sq ft",
+        "rooms": "3 bedrooms, 2 baths, balcony"
+      },
+      {
+        "label": "Type C/C1",
+        "price": null,
+        "builtUp": "1,109 sq ft",
+        "rooms": "3+1 bedrooms (incl. junior master), 3 baths, balcony, utility room"
+      },
+      {
+        "label": "Type D/D1",
+        "price": null,
+        "builtUp": "1,364 sq ft",
+        "rooms": "4+1 bedrooms (incl. junior master), 3 baths, balcony, utility room"
+      }
     ]
   },
   {
