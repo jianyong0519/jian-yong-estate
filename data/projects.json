@@ -651,7 +651,11 @@
       "suits": "Families upgrading to landed, and MM2H buyers who want a gated home.",
       "notFor": "Buyers who need rail access or a short commute to the city.",
       "updated": "November 2026"
-    }
+    },
+    "images": [
+      "/projects/ukay-spring-1.jpg",
+      "/projects/ukay-spring-2.jpg"
+    ]
   },
   {
     "id": "imperial-residences",
