@@ -695,5 +695,107 @@
       "notFor": "Buyers looking for rental yield or a budget under RM 5 million.",
       "updated": "November 2026"
     }
+  },
+  {
+    "id": "the-queenswoodz",
+    "name": "The Queenswoodz",
+    "developer": "EXSIM Group (EXSIM Jalil Link Sdn Bhd)",
+    "area": "Bukit Jalil",
+    "state": "Kuala Lumpur",
+    "type": "Serviced Residence",
+    "priceFrom": 723300,
+    "priceTo": null,
+    "bedrooms": [
+      3,
+      4
+    ],
+    "sizeSqft": [
+      807,
+      1410
+    ],
+    "sizeText": null,
+    "tenure": "Leasehold",
+    "completion": "2029",
+    "featured": true,
+    "lat": 3.0565,
+    "lng": 101.674,
+    "hue": 345,
+    "address": "Jalan Jalil Perkasa 1, Bukit Jalil, 57000 Kuala Lumpur",
+    "nearby": [
+      "Awan Besar LRT, within walking distance",
+      "Novel Park, a short stroll",
+      "Pavilion Bukit Jalil",
+      "Bukit Jalil Recreational Park",
+      "Bukit Jalil Golf & Country Resort"
+    ],
+    "about": "Two towers with 1,004 residences in Bukit Jalil City: Tower A with 494 units and Tower B with 510. Layouts run from 807 sq ft with 2+1 rooms to 1,410 sq ft with 4 rooms or a dual-key plan. Facilities sit on the Level 8 podium, with sky lounges and gardens on Level 50 (Tower A) and Level 51 (Tower B).",
+    "highlights": [
+      "Walking distance to Awan Besar LRT",
+      "Close to Pavilion Bukit Jalil and Novel Park",
+      "Layouts from 2+1 rooms to 4 rooms, including a dual-key type",
+      "Leisure pool, kids' pool, gym, hoop court and multipurpose hall on Level 8",
+      "Sky BBQ, lounges and gardens on Levels 50 and 51",
+      "GreenRE development by EXSIM"
+    ],
+    "units": [
+      {
+        "label": "Type A1/A2",
+        "price": null,
+        "builtUp": "807 sq ft",
+        "rooms": "2+1 rooms, 2 baths (A1 with balcony)"
+      },
+      {
+        "label": "Type B1/B2",
+        "price": null,
+        "builtUp": "936 sq ft",
+        "rooms": "3 rooms, 2 baths (B1 with balcony)"
+      },
+      {
+        "label": "Type C1/C2",
+        "price": null,
+        "builtUp": "1,206 sq ft",
+        "rooms": "3+1 rooms, 3 baths"
+      },
+      {
+        "label": "Type D1",
+        "price": null,
+        "builtUp": "1,410 sq ft",
+        "rooms": "4 rooms, 3 baths"
+      },
+      {
+        "label": "Type D2",
+        "price": null,
+        "builtUp": "1,410 sq ft",
+        "rooms": "3+1 rooms, 3 baths, dual key"
+      }
+    ],
+    "images": [
+      "/projects/the-queenswoodz-1.jpg",
+      "/projects/the-queenswoodz-2.jpg",
+      "/projects/the-queenswoodz-3.jpg",
+      "/projects/the-queenswoodz-4.jpg",
+      "/projects/the-queenswoodz-5.jpg",
+      "/projects/the-queenswoodz-6.jpg",
+      "/projects/the-queenswoodz-7.jpg",
+      "/projects/the-queenswoodz-8.jpg"
+    ],
+    "review": {
+      "verdict": "A well-connected Bukit Jalil home near the LRT and Pavilion Bukit Jalil, in a large two-tower development.",
+      "good": [
+        "Walking distance to Awan Besar LRT and close to Pavilion Bukit Jalil",
+        "Wide choice of layouts, from 807 sq ft to a 1,410 sq ft dual-key unit",
+        "Sky lounges and gardens on Levels 50 and 51, plus a full podium of facilities",
+        "Novel Park is a short stroll away"
+      ],
+      "watch": [
+        "Leasehold, on a commercial title; check utility rates",
+        "1,004 units in two towers, so it is not low density",
+        "About RM 896 per sq ft at the lowest SPA price",
+        "Completion in 2029, with many competing launches in Bukit Jalil"
+      ],
+      "suits": "Young families and professionals who want LRT access and a mall nearby, and investors looking at dual-key units.",
+      "notFor": "Buyers who want freehold or a low-density building.",
+      "updated": "November 2026"
+    }
   }
 ]
