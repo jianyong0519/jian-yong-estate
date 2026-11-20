@@ -3,6 +3,7 @@ import { useMemo, useState } from "react";
 import dynamic from "next/dynamic";
 import { useSearchParams } from "next/navigation";
 import ProjectCard from "./ProjectCard";
+import { withCommas } from "@/lib/format";
 
 const ProjectsMap = dynamic(() => import("./ProjectsMap"), { ssr: false });
 
@@ -21,8 +22,8 @@ export default function PropertiesBrowser({ projects }) {
   const [sort, setSort] = useState("az");
   const [state, setState] = useState(sp.get("state") || "");
   const [type, setType] = useState("");
-  const [min, setMin] = useState(sp.get("min") || "");
-  const [max, setMax] = useState(sp.get("max") || "");
+  const [min, setMin] = useState(withCommas(sp.get("min")));
+  const [max, setMax] = useState(withCommas(sp.get("max")));
   const [beds, setBeds] = useState(sp.get("beds") || "");
   const [showMap, setShowMap] = useState(false);
 
@@ -80,8 +81,8 @@ export default function PropertiesBrowser({ projects }) {
             <option value="">All Types</option>
             {types.map((t) => <option key={t} value={t}>{t}</option>)}
           </select>
-          <input className="field num" inputMode="numeric" placeholder="Min Price (RM)" aria-label="Minimum price in RM" value={min} onChange={(e) => setMin(e.target.value)} />
-          <input className="field num" inputMode="numeric" placeholder="Max Price (RM)" aria-label="Maximum price in RM" value={max} onChange={(e) => setMax(e.target.value)} />
+          <input className="field num" inputMode="numeric" placeholder="Min Price (RM)" aria-label="Minimum price in RM" value={min} onChange={(e) => setMin(withCommas(e.target.value))} />
+          <input className="field num" inputMode="numeric" placeholder="Max Price (RM)" aria-label="Maximum price in RM" value={max} onChange={(e) => setMax(withCommas(e.target.value))} />
           <select className="field" aria-label="Bedrooms" value={beds} onChange={(e) => setBeds(e.target.value)}>
             <option value="">Bedrooms</option>
             {[1, 2, 3, 4, 5].map((n) => <option key={n} value={n}>{n}+</option>)}
