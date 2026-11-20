@@ -494,8 +494,8 @@
       1420
     ],
     "sizeText": null,
-    "tenure": "Leasehold",
-    "completion": "2028",
+    "tenure": "Leasehold (expires 7 April 2103)",
+    "completion": "October 2028",
     "featured": false,
     "lat": 3.105,
     "lng": 101.62,
@@ -504,33 +504,62 @@
     "nearby": [
       "Asia Jaya LRT, about 400 m"
     ],
-    "about": "Phase 2 of The Atera in Petaling Jaya: 2 towers of 52 storeys with 788 residences and 5 retail units, about 400 m from Asia Jaya LRT. Units from 775 to 1,420 sq ft are handed over semi-furnished with smart-home controls, kitchen cabinets, hood and hob, and air-conditioning in the living room and master bedroom.",
+    "about": "Phase 2 of The Atera, a transit-oriented development in Section 14, Petaling Jaya, 400 m from Asia Jaya LRT by a covered walkway. Serviced apartments from 775 to 1,420 sq ft are handed over semi-furnished with smart-home features, and residents share up to 61 facilities across the Level 7 podium and sky lounges on Levels 48 and 52. GreenRE Silver certified.",
     "highlights": [
-      "About 400 m to Asia Jaya LRT",
-      "Semi-furnished: kitchen cabinets, hood & hob, air-conditioning, water heaters",
-      "1 car park for Type B, 2 for Types C and D",
-      "Smart-home digital lock, lighting, fan and air-con controls",
-      "Maintenance fee RM 0.32 psf including sinking fund",
-      "Highrise strata title, multi-tier security"
+      "400 m to Asia Jaya LRT via a covered walkway",
+      "Semi-furnished, with smart-home features",
+      "Up to 61 facilities, including sky lounges on Levels 48 and 52",
+      "Pool, gym, basketball and futsal courts, mini cinema and co-working lounge",
+      "Multi-tier security and GreenRE Silver certification",
+      "Easy access to the Federal Highway, LDP, SPRINT, NPE and NKVE"
     ],
     "review": {
       "verdict": "A transit home in mature PJ, a short walk from the LRT.",
       "good": [
-        "About 400 m to Asia Jaya LRT, in mature Section 14",
-        "Handed over semi-furnished with smart-home controls",
-        "Low maintenance fee of RM 0.32 psf including sinking fund",
-        "From about RM 843 per sq ft"
+        "400 m to Asia Jaya LRT via a covered walkway, in mature Section 14",
+        "Handed over semi-furnished with smart-home features",
+        "Up to 61 facilities, including sky lounges on Levels 48 and 52",
+        "Dual-key Type D suits multi-generation families and investors"
       ],
       "watch": [
-        "Leasehold",
-        "Dense: 788 units at 20 units per floor, served by 6+1 lifts",
-        "Type B comes with only 1 car park",
+        "Leasehold, expiring in 2103",
+        "Classified as serviced apartments; check utility rates",
+        "A large development: 876 units in Phase 2 alone",
         "One listing site notes Section 51A as flood-prone; check the site's flood history"
       ],
       "suits": "Commuters into PJ and KL, and investors renting to young professionals.",
       "notFor": "Buyers who want a residential title.",
       "updated": "November 2026"
-    }
+    },
+    "units": [
+      {
+        "label": "Type B",
+        "price": null,
+        "builtUp": "775 sq ft",
+        "rooms": "2 bedrooms, 2 baths"
+      },
+      {
+        "label": "Type C",
+        "price": null,
+        "builtUp": "1,022 sq ft",
+        "rooms": "3 bedrooms, 2 baths, balcony"
+      },
+      {
+        "label": "Type D",
+        "price": null,
+        "builtUp": "1,420 sq ft",
+        "rooms": "4 bedrooms, 3 baths, dual key"
+      }
+    ],
+    "images": [
+      "/projects/the-atera-2-1.jpg",
+      "/projects/the-atera-2-2.jpg",
+      "/projects/the-atera-2-3.jpg",
+      "/projects/the-atera-2-4.jpg",
+      "/projects/the-atera-2-5.jpg",
+      "/projects/the-atera-2-6.jpg",
+      "/projects/the-atera-2-7.jpg"
+    ]
   },
   {
     "id": "ukay-spring",
