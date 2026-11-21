@@ -121,31 +121,82 @@
     "hue": 200,
     "address": "Jalan Bukit Jalil Indah 2, Bukit Jalil, 57000 Kuala Lumpur",
     "nearby": [
-      "Bukit Jalil"
+      "Pavilion Bukit Jalil",
+      "LRT Alam Sutera and LRT Awan Besar",
+      "Tzu Chi International School",
+      "International Medical University (IMU)",
+      "Kinrara Golf Course",
+      "Bukit Jalil Recreational Park",
+      "Bukit Jalil National Stadium",
+      "Ayer Hitam Forest Reserve",
+      "Bukit Jalil Expressway, MEX and LDP"
     ],
-    "about": "Compact serviced apartments in Bukit Jalil, one of the lowest entry prices in the area.",
+    "about": "Two 57-storey towers on 2.55 acres in Bukit Jalil, with 1,138 homes in all (569 per tower) and 7 retail lots. Layouts run from a 484 sq ft one-bedroom to 915 sq ft three-bedroom units, each tower has 5+1 lifts serving about 13 units per floor, and buyers choose between a bare unit or a partly furnished package. Facilities sit on Level 8 and on the Level 57 rooftop.",
     "highlights": [
-      "Entry price under RM 450k",
-      "1 to 3 bedroom units",
-      "Suits first-time buyers and investors"
+      "1,138 units in two 57-storey towers on 2.55 acres",
+      "1-, 2- and 3-bedroom layouts from 484 to 915 sq ft",
+      "Maintenance fee about RM 0.44 per sq ft, including sinking fund",
+      "Level 8 facilities: Vividz Pool, Topaz kids' pool and jacuzzi, Body Builder Studio, Golden Years Gym, Chromatic Funland playground, Butterscotch Garden, amphitheater, multipurpose hall with pickleball and badminton court",
+      "Level 57 rooftop: Grill Garden, Herbs Garden, Serene Pavilion and Cloud Lounge",
+      "Bare unit or partly furnished: the partly furnished package has kitchen cabinets, hood and hob, fridge, microwave, washer and dryer, 2 air-conditioners, master bedroom wardrobe and water heater",
+      "Car parks: 1 for Type A, 1 tandem for Type B, 2 for Type C",
+      "Multi-tier security",
+      "Proposed shuttle bus to LRT Awan Besar, Pavilion Bukit Jalil and Jalil Link bus stop"
     ],
     "review": {
-      "verdict": "The cheapest way into Bukit Jalil on this site, built for small households and rental.",
+      "verdict": "The cheapest way into Bukit Jalil on this site, with big facility decks and compact layouts built for small households and rental.",
       "good": [
         "SPA price from under RM 450k, the lowest quantum here",
+        "Maintenance fee of about RM 0.44 per sq ft is low for a project with this many facilities",
+        "Two facility floors, including a Level 57 rooftop with Grill Garden and Cloud Lounge",
         "Compact one- and two-room units are easy to rent to singles and couples",
-        "A small loan keeps the monthly instalment low"
+        "Proposed shuttle bus to LRT Awan Besar and Pavilion Bukit Jalil"
       ],
       "watch": [
-        "Leasehold",
+        "Leasehold, on a commercial title (sold under the Housing Development Act)",
         "About RM 924 per sq ft on the 484 sq ft unit; small units carry a high price per foot",
-        "Completion in 2029, a longer wait",
-        "The smallest units are tight for a family"
+        "1,138 units at about 13 units per floor, so lifts and facilities are shared by many residents",
+        "Completion is 52 months after the developer's licence, so a long wait",
+        "Type B gets a single tandem car park"
       ],
-      "suits": "First-time buyers and investors who want a low entry price.",
-      "notFor": "Families who need three full-size bedrooms.",
+      "suits": "First-time buyers and investors who want a low entry price in Bukit Jalil.",
+      "notFor": "Families who need large rooms or two separate car parks below the 915 sq ft type.",
       "updated": "November 2026"
-    }
+    },
+    "units": [
+      {
+        "label": "Type A1",
+        "price": null,
+        "builtUp": "484 sq ft",
+        "rooms": "1 room, 1 bath"
+      },
+      {
+        "label": "Type B1",
+        "price": null,
+        "builtUp": "689 sq ft",
+        "rooms": "2 rooms, 2 baths"
+      },
+      {
+        "label": "Type C1",
+        "price": null,
+        "builtUp": "915 sq ft",
+        "rooms": "3 rooms, 2 baths, with balcony"
+      },
+      {
+        "label": "Type C2",
+        "price": null,
+        "builtUp": "915 sq ft",
+        "rooms": "3 rooms, 2 baths, no balcony"
+      }
+    ],
+    "images": [
+      "/projects/the-vividz-1.jpg",
+      "/projects/the-vividz-2.jpg",
+      "/projects/the-vividz-3.jpg",
+      "/projects/the-vividz-4.jpg",
+      "/projects/the-vividz-5.jpg",
+      "/projects/the-vividz-6.jpg"
+    ]
   },
   {
     "id": "aras-residences",
