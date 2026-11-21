@@ -225,3 +225,13 @@ footer .wrap{padding-block:28px;display:grid;grid-template-columns:1.4fr 1fr;gap
   .mapbox{height:360px}
 }
 @media (prefers-reduced-motion:reduce){.card{transition:none}.card:hover{transform:none}}
+
+/* gallery left/right buttons */
+.g-nav{position:absolute;top:50%;transform:translateY(-50%);z-index:2;width:48px;height:48px;border-radius:50%;border:0;display:grid;place-items:center;cursor:pointer;background:rgb(255 255 255 / .92);color:#14213A;box-shadow:0 2px 10px rgb(0 0 0 / .35);transition:background .15s,transform .15s}
+.g-nav:hover{background:#fff;transform:translateY(-50%) scale(1.06)}
+.g-nav.prev{left:14px}
+.g-nav.next{right:14px}
+.g-count{position:absolute;left:12px;bottom:10px;z-index:1;background:rgb(0 0 0 / .7);color:#fff;font-size:12px;padding:3px 10px;border-radius:999px;pointer-events:none}
+.p-hero:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+@media (max-width:480px){.g-nav{width:40px;height:40px}.g-nav.prev{left:8px}.g-nav.next{right:8px}}
+@media (prefers-reduced-motion:reduce){.g-nav{transition:none}}
