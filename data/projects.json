@@ -804,6 +804,143 @@
     }
   },
   {
+    "id": "royal-suites",
+    "name": "Royal Suites",
+    "developer": "Pavilion Group (Jendela Mayang Sdn Bhd)",
+    "area": "Pavilion Damansara Heights",
+    "state": "Kuala Lumpur",
+    "type": "Serviced Residence",
+    "priceFrom": 685000,
+    "priceTo": 4666000,
+    "bedrooms": [
+      1,
+      3
+    ],
+    "sizeSqft": [
+      452,
+      1679
+    ],
+    "sizeText": null,
+    "tenure": "Freehold",
+    "completion": "May 2030",
+    "featured": true,
+    "lat": 3.1524,
+    "lng": 101.6619,
+    "hue": 210,
+    "address": "Pavilion Damansara Heights, Bukit Damansara, 50490 Kuala Lumpur",
+    "nearby": [
+      "Pavilion Damansara Heights MRT, 2 stops to KL Sentral and 5 to KLCC",
+      "Pavilion Damansara Heights mall, over 1 million sq ft",
+      "Kuala Lumpur Golf & Country Club",
+      "Bukit Kiara Equestrian & Country Resort",
+      "Pantai Hospital Kuala Lumpur",
+      "Mont' Kiara and Garden International Schools"
+    ],
+    "about": "A 51-storey freehold serviced residence tower in the 16-acre Pavilion Damansara Heights masterplan, with 490 units from a 452 sq ft suite to 1,679 sq ft dual-key homes. It sits beside the Pavilion lifestyle mall and the Pavilion Damansara Heights MRT station, faces either the KL city skyline or the greenery of Bukit Kiara, and residents get Pavilion concierge service.",
+    "highlights": [
+      "Freehold, 490 units in one tower",
+      "Suites, 1-bedroom + study, 2- and 3-bedroom and dual-key layouts from 452 to 1,679 sq ft",
+      "Part of the Pavilion Damansara Heights masterplan, next to the mall and MRT station",
+      "Double-volume lobby with Pavilion concierge service",
+      "Level 6 Courtyard: lap pool, children's pool and play area, submerged loungers, terrace BBQ, function room with gourmet kitchen, Social Sphere, games room and The Club",
+      "Level 51 Sky: heated lap pool, jacuzzi, sky terrace and lounge, gym, dance and yoga studio, sauna, steam and therapy rooms",
+      "Compressed marble in living areas and engineered timber in bedrooms",
+      "Car parks: 1 per unit, a tandem pair for Type M2, 2 for the dual-key types"
+    ],
+    "units": [
+      {
+        "label": "Type S1",
+        "price": 685000,
+        "builtUp": "452 sq ft",
+        "rooms": "Suite"
+      },
+      {
+        "label": "Type S2",
+        "price": 771000,
+        "builtUp": "538 sq ft",
+        "rooms": "Suite"
+      },
+      {
+        "label": "Type J1",
+        "price": 972000,
+        "builtUp": "635 sq ft",
+        "rooms": "1 bedroom + study"
+      },
+      {
+        "label": "Type J3",
+        "price": 1310000,
+        "builtUp": "743 sq ft",
+        "rooms": "2 bedrooms"
+      },
+      {
+        "label": "Type J2",
+        "price": 1190000,
+        "builtUp": "753 sq ft",
+        "rooms": "1 bedroom + study"
+      },
+      {
+        "label": "Type J4",
+        "price": 1381000,
+        "builtUp": "850 sq ft",
+        "rooms": "1 bedroom + study"
+      },
+      {
+        "label": "Type M1",
+        "price": 1873000,
+        "builtUp": "1,119 sq ft",
+        "rooms": "2 bedrooms + study"
+      },
+      {
+        "label": "Type DK1",
+        "price": 2431000,
+        "builtUp": "1,302 sq ft",
+        "rooms": "2 bedrooms + studio, dual key"
+      },
+      {
+        "label": "Type M2",
+        "price": 2596000,
+        "builtUp": "1,550 sq ft",
+        "rooms": "3 bedrooms"
+      },
+      {
+        "label": "Type DK2",
+        "price": 3412000,
+        "builtUp": "1,679 sq ft",
+        "rooms": "2 bedrooms + studio, dual key"
+      }
+    ],
+    "images": [
+      "/projects/royal-suites-1.jpg",
+      "/projects/royal-suites-2.jpg",
+      "/projects/royal-suites-3.jpg",
+      "/projects/royal-suites-4.jpg",
+      "/projects/royal-suites-5.jpg",
+      "/projects/royal-suites-6.jpg",
+      "/projects/royal-suites-7.jpg",
+      "/projects/royal-suites-8.jpg",
+      "/projects/royal-suites-9.jpg"
+    ],
+    "review": {
+      "verdict": "The entry ticket to a freehold Pavilion address in Damansara Heights, with MRT and mall at the doorstep.",
+      "good": [
+        "Freehold in Damansara Heights, one of KL's most established addresses",
+        "Directly beside the Pavilion mall and Pavilion Damansara Heights MRT station",
+        "Two facility levels, including a heated sky pool on Level 51",
+        "Wide spread of layouts, from 452 sq ft suites to dual-key homes that can be lived in and partly rented out",
+        "Views of the KL skyline or Bukit Kiara greenery"
+      ],
+      "watch": [
+        "High price per sq ft, roughly RM 1,400 to RM 2,800 depending on type and floor",
+        "Small suites face more competition on the rental market",
+        "Completion in May 2030, a long wait",
+        "Type M2 gets a tandem car park pair rather than two separate bays"
+      ],
+      "suits": "Buyers who want a freehold Pavilion address with MRT access, from first-time city owners to investors.",
+      "notFor": "Buyers looking for a low price per sq ft or a quick handover.",
+      "updated": "November 2026"
+    }
+  },
+  {
     "id": "the-queenswoodz",
     "name": "The Queenswoodz",
     "developer": "EXSIM Group (EXSIM Jalil Link Sdn Bhd)",
