@@ -1049,7 +1049,7 @@
     "area": "Jalan Ampang (Embassy Row)",
     "state": "Kuala Lumpur",
     "type": "Condominium",
-    "priceFrom": null,
+    "priceFrom": 1100000,
     "priceTo": null,
     "bedrooms": [
       2,
@@ -1060,7 +1060,7 @@
       10635
     ],
     "sizeText": null,
-    "tenure": "Ask for details",
+    "tenure": "Leasehold",
     "completion": "Completed, being refurbished",
     "featured": true,
     "lat": 3.1612,
@@ -1168,8 +1168,8 @@
       "watch": [
         "An older building being refurbished, not a brand-new one; check the condition of the unit you pick",
         "1,099 units across five towers share the facilities",
-        "Tenure to be confirmed with the developer",
-        "Ask for the latest SPA price list"
+        "Leasehold tenure",
+        "SPA price from RM 1,100,000, a high entry ticket even for the 2-bedroom units"
       ],
       "suits": "Families and upgraders who want large units on Embassy Row without waiting for construction.",
       "notFor": "Buyers who want a brand-new building or a small, low-quantum unit.",
