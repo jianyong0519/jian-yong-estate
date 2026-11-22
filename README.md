@@ -40,6 +40,8 @@ If the site stops updating after an edit, the file usually has a missing comma o
 - Always show the SPA price. Never show rebates, net prices or discounted prices.
 - Show only the starting SPA price, never a price range. (`priceTo` is used behind the scenes for filters and the MM2H checker, and is never displayed.)
 
+- If a developer only allows a per-sq-ft price in ads, set `"pricePsf"` (e.g. `1530`). The site then shows "From RM 1,530 psf" everywhere for that project, hides unit prices, and never shows a ringgit total. `priceFrom` is still needed for the filters (psf × smallest size) but is not displayed.
+
 ## Number rule
 
 - Show every amount with thousands commas, e.g. 566,000 and 1,423 sq ft. Price boxes add the commas automatically as people type. Postcodes, phone numbers and years stay without commas.

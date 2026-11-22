@@ -5,7 +5,7 @@ import { PROJECTS, shortRM } from "@/lib/format";
 import { SITE, waLink } from "@/lib/site";
 
 export default function Home() {
-  const priced = PROJECTS.filter((p) => p.priceFrom);
+  const priced = PROJECTS.filter((p) => p.priceFrom && !p.pricePsf);
   const states = [...new Set(PROJECTS.map((p) => p.state))].sort();
   const featured = PROJECTS.filter((p) => p.featured).slice(0, 6);
   const lowest = priced.length ? Math.min(...priced.map((p) => p.priceFrom)) : null;

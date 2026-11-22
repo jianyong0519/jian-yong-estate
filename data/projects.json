@@ -810,7 +810,7 @@
     "area": "Pavilion Damansara Heights",
     "state": "Kuala Lumpur",
     "type": "Serviced Residence",
-    "priceFrom": 685000,
+    "priceFrom": 691560,
     "priceTo": 4666000,
     "bedrooms": [
       1,
@@ -850,61 +850,61 @@
     "units": [
       {
         "label": "Type S1",
-        "price": 685000,
+        "price": null,
         "builtUp": "452 sq ft",
         "rooms": "Suite"
       },
       {
         "label": "Type S2",
-        "price": 771000,
+        "price": null,
         "builtUp": "538 sq ft",
         "rooms": "Suite"
       },
       {
         "label": "Type J1",
-        "price": 972000,
+        "price": null,
         "builtUp": "635 sq ft",
         "rooms": "1 bedroom + study"
       },
       {
         "label": "Type J3",
-        "price": 1310000,
+        "price": null,
         "builtUp": "743 sq ft",
         "rooms": "2 bedrooms"
       },
       {
         "label": "Type J2",
-        "price": 1190000,
+        "price": null,
         "builtUp": "753 sq ft",
         "rooms": "1 bedroom + study"
       },
       {
         "label": "Type J4",
-        "price": 1381000,
+        "price": null,
         "builtUp": "850 sq ft",
         "rooms": "1 bedroom + study"
       },
       {
         "label": "Type M1",
-        "price": 1873000,
+        "price": null,
         "builtUp": "1,119 sq ft",
         "rooms": "2 bedrooms + study"
       },
       {
         "label": "Type DK1",
-        "price": 2431000,
+        "price": null,
         "builtUp": "1,302 sq ft",
         "rooms": "2 bedrooms + studio, dual key"
       },
       {
         "label": "Type M2",
-        "price": 2596000,
+        "price": null,
         "builtUp": "1,550 sq ft",
         "rooms": "3 bedrooms"
       },
       {
         "label": "Type DK2",
-        "price": 3412000,
+        "price": null,
         "builtUp": "1,679 sq ft",
         "rooms": "2 bedrooms + studio, dual key"
       }
@@ -930,7 +930,7 @@
         "Views of the KL skyline or Bukit Kiara greenery"
       ],
       "watch": [
-        "High price per sq ft, roughly RM 1,400 to RM 2,800 depending on type and floor",
+        "High price per sq ft, from RM 1,530 psf",
         "Small suites face more competition on the rental market",
         "Completion in May 2030, a long wait",
         "Type M2 gets a tandem car park pair rather than two separate bays"
@@ -938,7 +938,8 @@
       "suits": "Buyers who want a freehold Pavilion address with MRT access, from first-time city owners to investors.",
       "notFor": "Buyers looking for a low price per sq ft or a quick handover.",
       "updated": "November 2026"
-    }
+    },
+    "pricePsf": 1530
   },
   {
     "id": "the-queenswoodz",

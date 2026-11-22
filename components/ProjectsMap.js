@@ -1,7 +1,7 @@
 "use client";
 import { useEffect, useRef } from "react";
 import "leaflet/dist/leaflet.css";
-import { shortRM } from "@/lib/format";
+import { shortRM, shortPrice } from "@/lib/format";
 
 // Interactive map of all listed projects (OpenStreetMap tiles, free, no API key).
 export default function ProjectsMap({ projects }) {
@@ -34,7 +34,7 @@ export default function ProjectsMap({ projects }) {
         pts.push([p.lat, p.lng]);
         L.marker([p.lat, p.lng], { icon })
           .bindPopup(
-            `<div class="pin-pop"><b>${p.name}</b>${p.area}<br><span>${p.priceFrom ? "From " + shortRM(p.priceFrom) : "Ask for price"}</span><br><a href="/properties/${p.id}">View project →</a></div>`
+            `<div class="pin-pop"><b>${p.name}</b>${p.area}<br><span>${shortPrice(p) ? "From " + shortPrice(p) : "Ask for price"}</span><br><a href="/properties/${p.id}">View project →</a></div>`
           )
           .addTo(layer.current);
       });

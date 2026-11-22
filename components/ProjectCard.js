@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Cover from "./Cover";
-import { fmtRM, range, isAsk, tenureShort, tenureTag } from "@/lib/format";
+import { fmtRM, range, isAsk, tenureShort, tenureTag, priceText } from "@/lib/format";
 
 export default function ProjectCard({ p }) {
   return (
@@ -25,7 +25,7 @@ export default function ProjectCard({ p }) {
         </div>
         <div className="price">
           <span>SPA price from</span>
-          <b className="num">{p.priceFrom ? fmtRM(p.priceFrom) : "Ask for price"}</b>
+          <b className="num">{priceText(p) || "Ask for price"}</b>
         </div>
       </div>
     </Link>
