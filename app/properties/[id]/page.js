@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import Gallery from "@/components/Gallery";
 import LoanCalculator from "@/components/LoanCalculator";
 import EnquiryForm from "@/components/EnquiryForm";
-import { PROJECTS, getProject, fmtRM, range, priceText } from "@/lib/format";
+import { PROJECTS, getProject, fmtRM, range } from "@/lib/format";
 import { SITE, waLink } from "@/lib/site";
 
 export function generateStaticParams() {
@@ -15,7 +15,7 @@ export function generateMetadata({ params }) {
   if (!p) return {};
   return {
     title: `${p.name}, ${p.area}`,
-    description: `${p.name} in ${p.area}, ${p.state}: ${p.type.toLowerCase()}${priceText(p) ? ` from ${priceText(p)}` : ""}, ${p.tenure.toLowerCase()}, completion ${p.completion}. Floor plans and price list from ${SITE.agentName}.`,
+    description: `${p.name} in ${p.area}, ${p.state}: ${p.type.toLowerCase()}${p.priceFrom ? ` from ${fmtRM(p.priceFrom)}` : ""}, ${p.tenure.toLowerCase()}, completion ${p.completion}. Floor plans and price list from ${SITE.agentName}.`,
   };
 }
 
@@ -24,7 +24,7 @@ export default function ProjectPage({ params }) {
   if (!p) notFound();
 
   const facts = [
-    ["SPA price from", priceText(p) || "Ask for price"],
+    ["SPA price from", p.priceFrom ? fmtRM(p.priceFrom) : "Ask for price"],
     ["Bedrooms", p.bedrooms ? range(p.bedrooms) : "Ask"],
     ["Built-up", p.sizeSqft ? range(p.sizeSqft, " sq ft") : p.sizeText || "Ask"],
     ["Tenure", p.tenure],
@@ -32,7 +32,7 @@ export default function ProjectPage({ params }) {
     ["Type", p.type],
     ["Developer", p.developer || "Ask for details"],
   ];
-  const psf = !p.pricePsf && p.priceFrom && p.sizeSqft ? Math.round(p.priceFrom / p.sizeSqft[0]) : null;
+  const psf = p.priceFrom && p.sizeSqft ? Math.round(p.priceFrom / p.sizeSqft[0]) : null;
   // The embedded map searches the project name + address. For an exact pin, add
   // "mapPin": "3.1010,101.6840" to the project in projects.json (right-click the building in Google Maps to copy it).
   const mapQuery = p.mapPin || `${p.name}, ${p.address}`;
@@ -156,10 +156,10 @@ export default function ProjectPage({ params }) {
         <aside className="side">
           <div className="box">
             <span className="small">SPA price from</span>
-            <b className="num" style={{ fontSize: 26, color: "var(--price)" }}>{priceText(p) || "Ask for price"}</b>
+            <b className="num" style={{ fontSize: 26, color: "var(--price)" }}>{p.priceFrom ? fmtRM(p.priceFrom) : "Ask for price"}</b>
           </div>
           <EnquiryForm projectName={p.name} />
-          {p.priceFrom && <LoanCalculator price={p.pricePsf ? null : p.priceFrom} />}
+          {p.priceFrom && <LoanCalculator price={p.priceFrom} />}
         </aside>
       </div>
     </>

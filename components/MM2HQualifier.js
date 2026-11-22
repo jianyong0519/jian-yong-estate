@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 import Link from "next/link";
-import { shortRM, shortPrice } from "@/lib/format";
+import { shortRM } from "@/lib/format";
 import { TIERS, STATE_FOREIGN_MIN } from "@/data/mm2h";
 
 const ORDER = { yes: 0, some: 1, no: 2 };
@@ -32,7 +32,7 @@ export default function MM2HQualifier({ projects }) {
           <div className="small">
             {p.area} · needs <span className="num">{shortRM(need)}</span> ·{" "}
             {p.priceFrom ? (
-              <>SPA price from <span className="num">{shortPrice(p)}</span></>
+              <>SPA price from <span className="num">{shortRM(p.priceFrom)}</span></>
             ) : "price on request"}
           </div>
         </div>
