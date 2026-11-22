@@ -1041,5 +1041,139 @@
       "notFor": "Buyers who want freehold or a low-density building.",
       "updated": "November 2026"
     }
+  },
+  {
+    "id": "cappella-embassy",
+    "name": "Cappella Embassy",
+    "developer": "TSLAW Land",
+    "area": "Jalan Ampang (Embassy Row)",
+    "state": "Kuala Lumpur",
+    "type": "Condominium",
+    "priceFrom": null,
+    "priceTo": null,
+    "bedrooms": [
+      2,
+      5
+    ],
+    "sizeSqft": [
+      1109,
+      10635
+    ],
+    "sizeText": null,
+    "tenure": "Ask for details",
+    "completion": "Completed, being refurbished",
+    "featured": true,
+    "lat": 3.1612,
+    "lng": 101.7418,
+    "hue": 40,
+    "address": "D'Rapport Residences, Jalan Ampang, Kampung Berembang, 55000 Kuala Lumpur",
+    "nearby": [
+      "Embassy Row along Jalan Ampang",
+      "Ampang Park MRT and KLCC LRT stations",
+      "Great Eastern Mall and Avenue K",
+      "Gleneagles Hospital and Prince Court Medical Centre",
+      "Mutiara International Grammar School, Sayfol International School and Stella Maris",
+      "The Royal Selangor Golf Club",
+      "KLCC, TRX and Merdeka 118"
+    ],
+    "about": "Five 38-storey towers on 9.12 acres along Jalan Ampang's Embassy Row, with 1,099 high-end condominium units and 43 retail and office lots. Built as D'Rapport Residences, the development is being revived by TSLAW Land, which is upgrading the facade, entrance, lift lobbies, corridors, building services and the facilities. Main layouts run from 1,109 sq ft two-bedroom units to 2,260 sq ft three-bedroom-plus-one units, topped by a 10,635 sq ft triplex penthouse.",
+    "highlights": [
+      "9.12 acres, five 38-storey towers, 1,099 condominium units",
+      "Large layouts from 1,109 sq ft; most units are 3+1 bedrooms",
+      "Over 50 indoor and outdoor facilities across more than 280,000 sq ft",
+      "70,000 sq ft of indoor facilities: badminton and squash courts, gym, yoga room, sauna, golf simulators, mini golf, multipurpose hall and kids room",
+      "Work & Play hub: co-working lounge, meeting and activity rooms, karaoke and gaming rooms",
+      "Level 3 pool deck with poolside pavilion, kids pool with aqua play, new playground and toddler cycling track",
+      "Sky Bar, sky deck, wellness deck and pool on Tower E Level 38A",
+      "Units come with smart digital lock, air-conditioning in living, dining and all bedrooms, kitchen cabinets, hob and hood, fridge, microwave, washer-dryer, wardrobes and water heaters",
+      "The Shoppes @ Cappella Embassy retail podium"
+    ],
+    "units": [
+      {
+        "label": "Type D2",
+        "price": null,
+        "builtUp": "1,109 sq ft",
+        "rooms": "2 rooms, 2 baths"
+      },
+      {
+        "label": "Type D3",
+        "price": null,
+        "builtUp": "1,119 sq ft",
+        "rooms": "2 rooms, 2 baths"
+      },
+      {
+        "label": "Type D1",
+        "price": null,
+        "builtUp": "1,152 sq ft",
+        "rooms": "2 rooms, 2 baths"
+      },
+      {
+        "label": "Type C",
+        "price": null,
+        "builtUp": "1,625 sq ft",
+        "rooms": "3+1 rooms, 4+1 baths"
+      },
+      {
+        "label": "Type B",
+        "price": null,
+        "builtUp": "1,927 sq ft",
+        "rooms": "3+1 rooms, 4+1 baths"
+      },
+      {
+        "label": "Type A1",
+        "price": null,
+        "builtUp": "2,260 sq ft",
+        "rooms": "3+1 rooms, 4+1 baths"
+      },
+      {
+        "label": "Type A2",
+        "price": null,
+        "builtUp": "2,260 sq ft",
+        "rooms": "3+1 rooms, 4+1 baths"
+      },
+      {
+        "label": "Type B-T",
+        "price": null,
+        "builtUp": "3,918 sq ft",
+        "rooms": "6+2 rooms, 8+2 baths"
+      },
+      {
+        "label": "Triplex Penthouse",
+        "price": null,
+        "builtUp": "10,635 sq ft",
+        "rooms": "5+1 rooms, 6+2 baths"
+      }
+    ],
+    "images": [
+      "/projects/cappella-embassy-1.jpg",
+      "/projects/cappella-embassy-2.jpg",
+      "/projects/cappella-embassy-3.jpg",
+      "/projects/cappella-embassy-4.jpg",
+      "/projects/cappella-embassy-5.jpg",
+      "/projects/cappella-embassy-6.jpg",
+      "/projects/cappella-embassy-7.jpg",
+      "/projects/cappella-embassy-8.jpg",
+      "/projects/cappella-embassy-9.jpg",
+      "/projects/cappella-embassy-10.jpg"
+    ],
+    "review": {
+      "verdict": "A completed Embassy Row address with very large units and a huge facility list, refreshed by a new owner.",
+      "good": [
+        "Already built, so no long construction wait",
+        "Big layouts: even the 2-bedroom units are over 1,100 sq ft",
+        "Prestigious Jalan Ampang address among the embassies, close to KLCC",
+        "More than 50 facilities, including golf simulators, squash courts and a Sky Bar",
+        "Units come fitted with air-conditioning, kitchen appliances and wardrobes"
+      ],
+      "watch": [
+        "An older building being refurbished, not a brand-new one; check the condition of the unit you pick",
+        "1,099 units across five towers share the facilities",
+        "Tenure to be confirmed with the developer",
+        "Ask for the latest SPA price list"
+      ],
+      "suits": "Families and upgraders who want large units on Embassy Row without waiting for construction.",
+      "notFor": "Buyers who want a brand-new building or a small, low-quantum unit.",
+      "updated": "November 2026"
+    }
   }
 ]
